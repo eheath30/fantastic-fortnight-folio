@@ -26,7 +26,12 @@ export const NavbarLinkContainer = styled.div`
 `;
 
 export const NavbarLink = styled.a`
+@media (prefers-color-scheme: dark) {
   color: white;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: black;
+    }
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -37,7 +42,12 @@ export const NavbarLink = styled.a`
 `;
 
 export const NavbarLinkExtended = styled.a`
+@media (prefers-color-scheme: dark) {
   color: white;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: black;
+    }
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -56,7 +66,12 @@ export const OpenLinksButton = styled.button`
   height: 50px;
   background: none;
   border: none;
-  color: white;
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    }
+    @media (prefers-color-scheme: dark) {
+      color: black;
+      }
   font-size: 45px;
   cursor: pointer;
   @media (min-width: 700px) {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import {
   LeftContainer,
   RightContainer,
@@ -11,18 +11,22 @@ import {
   Logo,
   OpenLinksButton,
   NavbarLinkExtended,
-} from "../../styles/Nav.module.js"
+} from "../../styles/Nav.module.js";
 // import LogoImg from "../../assets/cat.jpg"
 
 interface INav {
   expandNavbar: boolean;
 }
 
-
 export const NavbarContainer = styled.nav<INav>`
   width: 100%;
-  height: ${({expandNavbar}) => (expandNavbar ? "100vh" : "80px")};
-  background-color: black;
+  height: ${({ expandNavbar }) => (expandNavbar ? "100vh" : "80px")};
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+    }
+    @media (prefers-color-scheme: dark) {
+      background-color: white;
+      }
   display: flex;
   flex-direction: column;
   @media (min-width: 700px) {
@@ -30,21 +34,20 @@ export const NavbarContainer = styled.nav<INav>`
   }
 `;
 
-
 const Nav = () => {
-    const [expandNavbar, setExpandNavbar] = useState<boolean>(false);
+  const [expandNavbar, setExpandNavbar] = useState<boolean>(false);
 
-    return (
-      <motion.div
+  return (
+    <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 1 }}
-      >
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1 }}
+    >
       <NavbarContainer expandNavbar={expandNavbar}>
         <NavbarInnerContainer>
           <LeftContainer>
-          {/* <Logo src={LogoImg.src}></Logo> */}
-      <h2>Elliot Heath</h2>
+            {/* <Logo src={LogoImg.src}></Logo> */}
+            <h2>Elliot Heath</h2>
           </LeftContainer>
           <RightContainer>
             <NavbarLinkContainer>
@@ -57,13 +60,41 @@ const Nav = () => {
                   setExpandNavbar((prevState) => !prevState);
                 }}
               >
-                {expandNavbar ? <><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-</svg>
-</> : <><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
-</>}
+                {expandNavbar ? (
+                  <>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </>
+                ) : (
+                  <>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                      />
+                    </svg>
+                  </>
+                )}
               </OpenLinksButton>
             </NavbarLinkContainer>
           </RightContainer>
@@ -77,8 +108,8 @@ const Nav = () => {
           </NavbarExtendedContainer>
         )}
       </NavbarContainer>
-      </motion.div>
-    );
-}
+    </motion.div>
+  );
+};
 
-export default Nav
+export default Nav;
