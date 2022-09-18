@@ -24,7 +24,7 @@ export const NavbarContainer = styled.nav<INav>`
   @media (prefers-color-scheme: dark) {
     background-color: black;
     }
-    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: light) {
       background-color: white;
       }
   display: flex;

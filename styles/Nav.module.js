@@ -29,7 +29,7 @@ export const NavbarLink = styled.a`
 @media (prefers-color-scheme: dark) {
   color: white;
   }
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: light) {
     color: black;
     }
   font-size: x-large;
@@ -45,7 +45,7 @@ export const NavbarLinkExtended = styled.a`
 @media (prefers-color-scheme: dark) {
   color: white;
   }
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: light) {
     color: black;
     }
   font-size: x-large;
@@ -69,7 +69,7 @@ export const OpenLinksButton = styled.button`
   @media (prefers-color-scheme: dark) {
     color: white;
     }
-    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: light) {
       color: black;
       }
   font-size: 45px;
