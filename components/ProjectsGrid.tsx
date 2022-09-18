@@ -28,6 +28,7 @@ const ProjectsGrid = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti temporibus vero repellendus quo ad, animi ullam reiciendis laborum aliquid ut sequi qui commodi.
             </p>
           </div>
+        </div>
   )
 }
 
