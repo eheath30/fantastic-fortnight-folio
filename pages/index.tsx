@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import ProjectsGrid from "../components/ProjectsGrid";
+import SkillsGrid from "../components/SkillsGrid";
 import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Hero />
-
+        <SkillsGrid />
         <ProjectsGrid />
       </main>
 

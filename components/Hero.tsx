@@ -26,7 +26,7 @@ const containerVariants = {
 const Hero = () => {
   return (
     <motion.div
-      style={{ height: "100vh" }}
+      style={{ height: "100vh", borderBottom:"1px solid #222", width: "60vw", marginBottom:"2rem"}}
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -66,7 +66,7 @@ const Hero = () => {
 
       <DescriptionContainer>
         Scroll down to 
-        <CodeContainer>see more.</CodeContainer>
+        <CodeContainer href="#recent-projects" rel="noopener noreferrer">see more.</CodeContainer>
       </DescriptionContainer>
     </motion.div>
   );

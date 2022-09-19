@@ -30,7 +30,7 @@ export const DescriptionContainer = styled.div`
   }
 `;
 
-export const CodeContainer = styled.span`
+export const CodeContainer = styled.a`
   background: #2e8bc0;
   border-radius: 5px;
   padding: 0.75rem;
