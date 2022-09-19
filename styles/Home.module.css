@@ -3,15 +3,15 @@
 }
 
 @media (min-width: 1200px) {
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 900px) {
@@ -26,12 +26,11 @@
   }
 }
 
-
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #B1D4E0;
+  border-top: 1px solid #b1d4e0;
   justify-content: center;
   align-items: center;
 }

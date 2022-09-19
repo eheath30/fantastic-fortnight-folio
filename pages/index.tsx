@@ -1,16 +1,19 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import ProjectsGrid from '../components/ProjectsGrid'
-import Hero from '../components/Hero';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import ProjectsGrid from "../components/ProjectsGrid";
+import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
         <title>Elliot Heath Portfolio</title>
-        <meta name="description" content="A portfolio site built using Nextjs, Reactjs, Typescript & Styled Components" />
+        <meta
+          name="description"
+          content="A portfolio site built using Nextjs, Reactjs, Typescript & Styled Components"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -18,7 +21,6 @@ const Home: NextPage = () => {
         <Hero />
 
         <ProjectsGrid />
-
       </main>
 
       <footer className={styles.footer}>
@@ -27,14 +29,14 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

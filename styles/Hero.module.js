@@ -31,14 +31,14 @@ export const DescriptionContainer = styled.div`
 `;
 
 export const CodeContainer = styled.span`
-  background: #2E8BC0;
+  background: #2e8bc0;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
   @media (prefers-color-scheme: dark) {
-    background: #145DA0;
+    background: #145da0;
   }
   @media (max-width: 700px) {
     font-size: 1rem;

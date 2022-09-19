@@ -20,11 +20,10 @@ a {
     color-scheme: dark;
   }
   body {
-    color: #B1D4E0;
-    background: #0C2D48
+    color: #b1d4e0;
+    background: #0c2d48;
   }
 }
-
 
 .swiper {
   width: 11rem;
@@ -39,25 +38,25 @@ a {
   border-radius: 18px;
   font-size: 22px;
   font-weight: bold;
-    margin-left: 10px;
-  color: #B1D4E0;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px 2px, rgba(0, 0, 0, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin-left: 10px;
+  color: #b1d4e0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px 2px,
+    rgba(0, 0, 0, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .swiper-slide:nth-child(1n) {
-  background-color: #2E8BC0
+  background-color: #2e8bc0;
 }
 
 .swiper-slide:nth-child(2n) {
-  background-color: #145DA0
-
+  background-color: #145da0;
 }
 
 .swiper-slide:nth-child(3n) {
-  background-color: #0C2D48
-
+  background-color: #0c2d48;
 }
 
 .swiper-slide:nth-child(4n) {
-  background-color: #B1D4E0
+  background-color: #b1d4e0;
 }
