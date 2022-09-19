@@ -1,7 +1,14 @@
 import React from 'react'
-import styles from '../styles/Hero.module.css'
 import Typical from 'react-typical'
 import { motion } from 'framer-motion'
+import {
+  TitleContainer,
+  TypicalContainer,
+  DescriptionContainer,
+  CodeContainer
+} from "../styles/Hero.module.js"
+import SimpleSlider from './ImgCarousel'
+
 
 const containerVariants = {
   hidden: {
@@ -25,8 +32,10 @@ const Hero = () => {
       animate="visible"
       exit="exit"
     >
-        <h1 className={styles.title}>
-          Let&#39;s talk about <Typical wrapper="p" loop={1} steps={[
+        <TitleContainer>
+          Let&#39;s talk about
+          <TypicalContainer>
+          <Typical wrapper="p" loop={1} steps={[
             "JavaScript",
             3000,
             "TypeScript",
@@ -43,15 +52,23 @@ const Hero = () => {
             3000,
             "UI & UX Design",
             3000,
-            "Software development",
+            "Technology",
             3000,
           ]}/>
-        </h1>
+         </TypicalContainer>
+        </TitleContainer>
 
-        <p className={styles.description}>
+
+
+          <SimpleSlider/>
+
+
+
+
+        <DescriptionContainer>
         Scroll down to 
-          <code className={styles.code}>see more.</code>
-        </p>
+          <CodeContainer>see more.</CodeContainer>
+        </DescriptionContainer>
         </motion.div>
   )
 }
