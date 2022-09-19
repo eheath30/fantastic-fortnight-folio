@@ -15,6 +15,9 @@ import todotabs from '../assets/ImgsCarousel/todotabs.png'
 import reecespieces from '../assets/ImgsCarousel/reecespieces.png'
 import quizzlybears from '../assets/ImgsCarousel/quizzlybears.png'
 import pandapost from '../assets/ImgsCarousel/pandapost.png'
+import githut from '../assets/ImgsCarousel/githut.png'
+import pizzalovers from '../assets/ImgsCarousel/pizzalovers.png'
+import habithole from '../assets/ImgsCarousel/habithole.png'
 
 import {
     SliderContainer,
@@ -41,10 +44,10 @@ const ImgSlider = () => {
         <SwiperSlide><CarouselImg src={todotabs.src} alt="todotabs"/></SwiperSlide>
         <SwiperSlide><CarouselImg src={reecespieces.src} alt="reecespieces"/></SwiperSlide>
         <SwiperSlide><CarouselImg src={gamesgrotto.src} alt="gameshop"/></SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide><CarouselImg src={githut.src} alt="githut"/></SwiperSlide>
+        <SwiperSlide><CarouselImg src={pizzalovers.src} alt="pizzalovers"/></SwiperSlide>
+        <SwiperSlide><CarouselImg src={habithole.src} alt="habithole"/></SwiperSlide>
+
         <SwiperSlide><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" width={'3rem'}>
   <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
 </svg>
