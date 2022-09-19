@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import ProjectsGrid from '../components/ProjectsGrid'
-
+import Hero from '../components/Hero';
 
 const Home: NextPage = () => {
   return (
@@ -15,14 +15,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          This is the Title
-        </h1>
-
-        <p className={styles.description}>
-        This is a description
-          <code className={styles.code}>and some code.</code>
-        </p>
+        <Hero />
 
         <ProjectsGrid />
 
