@@ -9,7 +9,7 @@ import "swiper/css/effect-cards";
 // import required modules
 import { EffectCards } from "swiper";
 
-import passwordGenerator from '../assets/ImgsCarousel/passwordGenerator.png'
+import passwordgenerator from '../assets/ImgsCarousel/passwordgenerator.png'
 import gamesgrotto from '../assets/ImgsCarousel/gamesgrotto.png'
 import todotabs from '../assets/ImgsCarousel/todotabs.png'
 import reecespieces from '../assets/ImgsCarousel/reecespieces.png'
@@ -37,7 +37,7 @@ const ImgSlider = () => {
   <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
 </svg>
 <CarouselImg src={quizzlybears.src} alt="quizzlybears"/></SwiperSlide>
-        <SwiperSlide><CarouselImg src={passwordGenerator.src} alt="passwordgenerator"/></SwiperSlide>
+        <SwiperSlide><CarouselImg src={passwordgenerator.src} alt="passwordgenerator"/></SwiperSlide>
         <SwiperSlide><CarouselImg src={todotabs.src} alt="todotabs"/></SwiperSlide>
         <SwiperSlide><CarouselImg src={reecespieces.src} alt="reecespieces"/></SwiperSlide>
         <SwiperSlide><CarouselImg src={gamesgrotto.src} alt="gameshop"/></SwiperSlide>
