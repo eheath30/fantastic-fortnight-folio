@@ -22,7 +22,7 @@ export const TypicalContainer = styled.div`
 
 export const DescriptionContainer = styled.div`
   text-align: center;
-  margin: 4rem 0;
+  margin: 10vh 0;
   line-height: 1.5;
   font-size: 1.5rem;
   @media (max-width: 700px) {

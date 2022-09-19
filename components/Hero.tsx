@@ -26,7 +26,7 @@ const containerVariants = {
 
 const Hero = () => {
   return (
-    <motion.div className="home container"
+    <motion.div style={{height:'100vh'}}
       variants={containerVariants}
       initial="hidden"
       animate="visible"

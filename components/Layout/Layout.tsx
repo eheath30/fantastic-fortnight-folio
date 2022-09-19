@@ -10,9 +10,9 @@ const Layout: React.FC<ILayoutProps> = ({children}) => {
   return (
     <div className={styles.container}>
       <Nav/>
-      <main className={styles.main}>
+      <section className={styles.section}>
         {children}
-      </main>
+      </section>
     </div>
   )
 }

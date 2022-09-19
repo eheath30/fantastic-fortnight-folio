@@ -6,7 +6,11 @@ height: 14rem;
 `;
 
 export const CarouselImg = styled.img`
-width: 15rem;
+width: 10.5rem;
+border-radius: 5px;
+`;
 
-display: inline-block;
+export const Dot = styled.div`
+align-self: center;
+font-size: 1rem;
 `;
