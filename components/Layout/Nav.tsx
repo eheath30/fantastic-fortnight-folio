@@ -52,8 +52,8 @@ const Nav = () => {
           <RightContainer>
             <NavbarLinkContainer>
               <NavbarLink href="/"> Home</NavbarLink>
-              {/* <NavbarLink href="/products"> Products</NavbarLink>
-              <NavbarLink href="/contact"> Contact Us</NavbarLink> */}
+              <NavbarLink href="/blog"> Blog</NavbarLink>
+              {/* <NavbarLink href="/contact"> Contact Us</NavbarLink> */}
               <NavbarLink href="/about"> About </NavbarLink>
               <OpenLinksButton
                 onClick={() => {
@@ -102,8 +102,8 @@ const Nav = () => {
         {expandNavbar && (
           <NavbarExtendedContainer>
             <NavbarLinkExtended href="/"> Home</NavbarLinkExtended>
-            {/* <NavbarLinkExtended href="/products"> Products</NavbarLinkExtended>
-            <NavbarLinkExtended href="/contact"> Contact Us</NavbarLinkExtended> */}
+            <NavbarLinkExtended href="/blog"> Blog</NavbarLinkExtended>
+            {/* <NavbarLinkExtended href="/contact"> Contact Us</NavbarLinkExtended> */}
             <NavbarLinkExtended href="/about"> About </NavbarLinkExtended>
           </NavbarExtendedContainer>
         )}
