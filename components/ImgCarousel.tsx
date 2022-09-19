@@ -36,6 +36,7 @@ const ImgSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
+          <Dot>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -45,36 +46,38 @@ const ImgSlider = () => {
             width={"3rem"}
           >
             <path
-              stroke-linecap="round"
+              strokeLinecap="round"
               strokeLinejoin="round"
               d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
             />
           </svg>
+          </Dot>
           <CarouselImg src={quizzlybears.src} alt="quizzlybears" />
         </SwiperSlide>
         <SwiperSlide>
-          <CarouselImg src={passwordgenerator.src} alt="passwordgenerator" />
+        <CarouselImg src={todotabs.src} alt="todotabs" />
         </SwiperSlide>
         <SwiperSlide>
-          <CarouselImg src={todotabs.src} alt="todotabs" />
+        <CarouselImg src={passwordgenerator.src} alt="passwordgenerator" />
         </SwiperSlide>
         <SwiperSlide>
           <CarouselImg src={githut.src} alt="githut" />
         </SwiperSlide>
         <SwiperSlide>
-          <CarouselImg src={gamesgrotto.src} alt="gameshop" />
+        <CarouselImg src={reecespieces.src} alt="reecespieces" />
         </SwiperSlide>
         <SwiperSlide>
-          <CarouselImg src={reecespieces.src} alt="reecespieces" />
+        <CarouselImg src={gamesgrotto.src} alt="gameshop" />
         </SwiperSlide>
         <SwiperSlide>
           <CarouselImg src={pizzalovers.src} alt="pizzalovers" />
         </SwiperSlide>
         <SwiperSlide>
-          <CarouselImg src={habithole.src} alt="habithole" />
+        <CarouselImg src={pandapost.src} alt="pandapost" />
         </SwiperSlide>
 
         <SwiperSlide>
+        <Dot>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -84,12 +87,13 @@ const ImgSlider = () => {
             width={"3rem"}
           >
             <path
-              stroke-linecap="round"
+              strokeLinecap="round"
               strokeLinejoin="round"
               d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
             />
           </svg>
-          <CarouselImg src={pandapost.src} alt="pandapost" />
+          </Dot>
+          <CarouselImg src={habithole.src} alt="habithole" />
         </SwiperSlide>
       </Swiper>
     </SliderContainer>

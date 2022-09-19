@@ -10,5 +10,6 @@ export const CarouselImg = styled.img`
 
 export const Dot = styled.div`
   align-self: center;
-  font-size: 1rem;
+  font-size: 0rem;
+  color: #0C2D48;
 `;

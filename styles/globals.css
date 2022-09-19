@@ -54,9 +54,5 @@ a {
 }
 
 .swiper-slide:nth-child(3n) {
-  background-color: #0c2d48;
-}
-
-.swiper-slide:nth-child(4n) {
   background-color: #b1d4e0;
 }
