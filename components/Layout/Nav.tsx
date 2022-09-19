@@ -21,12 +21,7 @@ interface INav {
 export const NavbarContainer = styled.nav<INav>`
   width: 100%;
   height: ${({ expandNavbar }) => (expandNavbar ? "100vh" : "80px")};
-  @media (prefers-color-scheme: dark) {
-    background-color: black;
-    }
-    @media (prefers-color-scheme: light) {
-      background-color: white;
-      }
+    background-color: transparent;
   display: flex;
   flex-direction: column;
   @media (min-width: 700px) {
