@@ -55,7 +55,7 @@ const Hero = () => {
               3000,
               "UI & UX Design",
               3000,
-              "Technology",
+              "Technology.",
               3000,
             ]}
           />
