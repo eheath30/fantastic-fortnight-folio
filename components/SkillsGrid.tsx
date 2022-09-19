@@ -18,7 +18,7 @@ const ProjectsGrid = () => {
       <SkillsContainer>
         <SkillsCard>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               style={{ height: "35px" }}
               alt="JavaScript"
@@ -27,14 +27,14 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>Python</SkillNameVariant>
-            <Image
+            <img
               alt="Python"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
               style={{ height: "35px" }}
             />
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
               style={{ height: "35px" }}
               alt="TypeScript"
@@ -43,14 +43,14 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>CSS</SkillNameVariant>
-            <Image
+            <img
               alt="CSS"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
               style={{ height: "35px" }}
             />
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
               style={{ height: "35px" }}
               alt="HTML"
@@ -62,14 +62,14 @@ const ProjectsGrid = () => {
         <SkillsCard>
           <Skill>
             <SkillNameVariant>Git</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
               style={{ height: "35px" }}
               alt="Git"
             />
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
               style={{ height: "35px", backgroundColor: "RGBA(0, 0, 0, 0.5)" }}
               alt="NodeJS"
@@ -78,14 +78,14 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>Express</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
               style={{ height: "35px" }}
               alt="Express"
             />
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
               style={{ height: "35px", backgroundColor: "RGBA(0, 0, 0, 0.9)" }}
               alt="React"
@@ -94,7 +94,7 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>Next</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
               style={{ height: "35px" }}
               alt="Next"
@@ -104,7 +104,7 @@ const ProjectsGrid = () => {
 
         <SkillsCard>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
               style={{ height: "35px" }}
               alt="Flask"
@@ -113,14 +113,14 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>Redux</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
               style={{ height: "35px" }}
               alt="Redux"
             />
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
               style={{ height: "35px" }}
               alt="PostgreSQL"
@@ -129,14 +129,14 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>SQLAlchemy</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg"
               style={{ height: "35px" }}
               alt="SQLAlchemy"
             />
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
               style={{ height: "35px" }}
               alt="MongoDB"
@@ -148,7 +148,7 @@ const ProjectsGrid = () => {
         <SkillsCard>
           <Skill>
             <SkillNameVariant>Markdown</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg"
               style={{ height: "35px" }}
               alt="Markdown"
@@ -156,7 +156,7 @@ const ProjectsGrid = () => {
 
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
               style={{ height: "35px" }}
               alt="Bootstrap"
@@ -165,14 +165,14 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>Docker</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
               style={{ height: "35px" }}
               alt="Docker"
             />
           </Skill>
           <Skill>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
               style={{ height: "35px" }}
               alt="SocketIO"
@@ -181,7 +181,7 @@ const ProjectsGrid = () => {
           </Skill>
           <Skill>
             <SkillNameVariant>Blender</SkillNameVariant>
-            <Image
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg"
               style={{ height: "35px" }}
               alt="Blender"
