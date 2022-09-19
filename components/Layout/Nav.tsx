@@ -42,7 +42,7 @@ const Nav = () => {
         <NavbarInnerContainer>
           <LeftContainer>
             {/* <Logo src={LogoImg.src}></Logo> */}
-            <h2>Elliot Heath</h2>
+            Elliot Heath
           </LeftContainer>
           <RightContainer>
             <NavbarLinkContainer>

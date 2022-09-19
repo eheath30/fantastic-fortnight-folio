@@ -4,7 +4,11 @@ export const LeftContainer = styled.div`
   flex: 30%;
   display: flex;
   justify-content: flex-start;
+  padding-top: 10px;
   padding-right: 50px;
+  font-size: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 `;
 
 export const RightContainer = styled.div`
