@@ -1931,6 +1931,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-typical@^0.1.0":
+  "integrity" "sha512-luupdNGHZHLFdFEkIxwJcnDzG0W8WmsvO2/CPuWNAgEb61S+M9fGXcLmpAf9ICmj+zTOlZiPmqE5SmOl48GmNw=="
+  "resolved" "https://registry.npmjs.org/@types/react-typical/-/react-typical-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^18.0.20":
   "integrity" "sha512-MWul1teSPxujEHVwZl4a5HxQ9vVNsjTchVA+xRqv/VYGCuKGAU6UhfrTdF5aBefwD1BHUD8i/zq+O/vyCm/FrA=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-18.0.20.tgz"

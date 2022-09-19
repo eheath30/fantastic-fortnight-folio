@@ -26,7 +26,7 @@ const Hero = () => {
       exit="exit"
     >
         <h1 className={styles.title}>
-          Let's talk about <Typical wrapper="p" loop ={1} steps={[
+          Let&#39;s talk about <Typical wrapper="p" loop={1} steps={[
             "JavaScript",
             3000,
             "TypeScript",
