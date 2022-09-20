@@ -22,6 +22,16 @@ body {
   }
 }
 
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+  body {
+    color: #0c2d48;
+    background: #b1d4e0;
+  }
+}
+
 .swiper {
   width: 11rem;
   height: 16rem;

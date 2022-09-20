@@ -14,3 +14,13 @@ export const Dot = styled.div`
   font-size: 0rem;
   color: #0C2D48;
 `;
+
+export const RepoLink = styled.a`
+  position: absolute;
+  bottom: 0;
+  left: 0.4rem;
+  width: 40px;
+  &:hover {
+    transform: scale(1.05);
+  }
+`;

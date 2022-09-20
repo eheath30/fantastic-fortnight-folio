@@ -34,7 +34,14 @@ min-width: 260px;
 display: flex;
 flex-direction: column;
 align-items: center;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+box-shadow: rgba(50, 50, 93, 0.2) 0px 10px 20px -6px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+@media (prefers-color-scheme: light) {
+  border: 0.5rem inset RGBA(12, 45, 72, 0.9);
+}
+@media (prefers-color-scheme: dark) {
+  border: 0.5rem inset RGBA(46, 139, 192, 1);
+  ;
+}
 `;
 
 export const SkillName = styled.span`

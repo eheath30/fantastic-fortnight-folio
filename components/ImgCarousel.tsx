@@ -19,11 +19,13 @@ import pandapost from "../assets/ImgsCarousel/pandapost.png";
 import githut from "../assets/ImgsCarousel/githut.png";
 import pizzalovers from "../assets/ImgsCarousel/pizzalovers.png";
 import habithole from "../assets/ImgsCarousel/habithole.png";
+import bionictext from "../assets/ImgsCarousel/bionictext.png";
 
 import {
   SliderContainer,
   CarouselImg,
   Dot,
+  RepoLink
 } from "../styles/ImgCarousel.module.js";
 
 //  TODO: https://www.img2go.com/ 800:960
@@ -54,29 +56,79 @@ const ImgSlider = () => {
           </svg>
           </Dot>
           <CarouselImg src={quizzlybears.src} alt="quizzlybears" />
+<RepoLink href="https://github.com/eheath30/quizzly-bears-netlify" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
         </SwiperSlide>
         <SwiperSlide>
         <CarouselImg src={todotabs.src} alt="todotabs" />
+        <RepoLink href="https://github.com/eheath30/Todo-Tabs" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
         </SwiperSlide>
         <SwiperSlide>
-        <CarouselImg src={passwordgenerator.src} alt="passwordgenerator" />
+        <CarouselImg src={passwordgenerator.src} alt="passwordgenerator"/>
+        <RepoLink href="https://codepen.io/eheath30/pen/BaYyPJG" target="_blank">
+
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg" />
+
+
+          </RepoLink>
         </SwiperSlide>
         <SwiperSlide>
           <CarouselImg src={githut.src} alt="githut" />
+          <RepoLink href="https://github.com/eheath30/git-hut" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
         </SwiperSlide>
         <SwiperSlide>
         <CarouselImg src={reecespieces.src} alt="reecespieces" />
+        <RepoLink href="https://github.com/eheath30/music-card-site" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
         </SwiperSlide>
         <SwiperSlide>
         <CarouselImg src={gamesgrotto.src} alt="gameshop" />
+        <RepoLink href="https://github.com/Ismael76/GamesGrotto-Client" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
         </SwiperSlide>
         <SwiperSlide>
           <CarouselImg src={pizzalovers.src} alt="pizzalovers" />
+          <RepoLink href="https://github.com/eheath30/Fp_Day3_Frameworks" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
         </SwiperSlide>
         <SwiperSlide>
         <CarouselImg src={pandapost.src} alt="pandapost" />
+        <RepoLink href="https://github.com/eheath30/Telegraph-Clone-Panda-Post" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
         </SwiperSlide>
 
+        <SwiperSlide>
+          <CarouselImg src={habithole.src} alt="habithole" />
+          <RepoLink href="https://github.com/eheath30/habit-hole" target="_blank">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+          </RepoLink>
+        </SwiperSlide>
         <SwiperSlide>
         <Dot>
           <svg
@@ -94,7 +146,12 @@ const ImgSlider = () => {
             />
           </svg>
           </Dot>
-          <CarouselImg src={habithole.src} alt="habithole" />
+          <CarouselImg src={bionictext.src} alt="bionictext" />
+          <RepoLink href="https://codepen.io/eheath30/pen/qBxmMXo" target="_blank">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg" />
+
+          </RepoLink>
         </SwiperSlide>
       </Swiper>
     </SliderContainer>
