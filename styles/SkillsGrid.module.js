@@ -26,7 +26,7 @@ export const SkillsCard = styled.div`
   border-radius: 10px;
   background-color: #b1d4e0;
   max-width: 300px;
-  min-width: 260px;
+  min-width: 275px;
   display: flex;
   flex-direction: column;
   align-items: center;
