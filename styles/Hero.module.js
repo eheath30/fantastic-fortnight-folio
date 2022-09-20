@@ -5,6 +5,8 @@ export const TitleContainer = styled.div`
   line-height: 1.15;
   font-size: 4rem;
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
   @media (max-width: 700px) {
     font-size: 2rem;
   }
