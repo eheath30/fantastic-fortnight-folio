@@ -13,7 +13,7 @@ let projectdata = [
   {
     name: "Games Grotto",
     description:
-      "The culmination of a full-stack training course. Built using JavaScript, ReactJS, Flask, PostgreSQL, Tiled, Bootstrap and custom CSS libararies.",
+      "The culmination of a full-stack training course. Built using JavaScript, ReactJS, Flask, PostgreSQL, Tiled, Bootstrap and custom CSS libraries.",
     github: "https://github.com/eheath30/GamesGrotto-Client",
     site: "https://games-grotto.netlify.app/",
   },
