@@ -28,6 +28,7 @@ import {
 } from "../styles/ImgCarousel.module.js";
 
 //  TODO: https://www.img2go.com/ 800:960
+
 const ImgSlider = () => {
   return (
     <SliderContainer>
