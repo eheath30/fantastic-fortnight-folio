@@ -5,7 +5,7 @@ export const LeftContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   @media (min-width: 900px) {
-    padding: 1rem 2rem 0 1.5rem;
+    padding: 1.5rem 2rem 0 1.5rem;
   }
   padding: 0.5rem 2rem 0 1rem;
   font-size: 2rem;
