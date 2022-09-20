@@ -24,11 +24,6 @@
   }
 }
 
-@media (max-width: 700px) {
-  .main {
-    padding: 4rem 0;
-  }
-}
 
 .motionmain {
   display: flex;
