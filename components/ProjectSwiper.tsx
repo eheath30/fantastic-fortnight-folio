@@ -24,15 +24,14 @@ import portfolio2 from "../assets/ProjectsCarousel/portfolio2.png";
 import portfolio3 from "../assets/ProjectsCarousel/portfolio3.png";
 
 interface INameProps {
-  name: string
+  name: string;
 }
-
+          // TODO: https://www.img2go.com/ 934:895
 const ProjectSwiper = (name: INameProps) => {
   const ProjectImages = () => {
     if (name.name === "Games Grotto") {
       return (
         <>
-          // TODO: https://www.img2go.com/ 934:895
           <SwiperSlide>
             <img
               className={styles.projectimg}
@@ -75,11 +74,9 @@ const ProjectSwiper = (name: INameProps) => {
           </SwiperSlide>
         </>
       );
-    }
-    else if (name.name === "Quizzly Bears") {
+    } else if (name.name === "Quizzly Bears") {
       return (
-<>
-          // TODO: https://www.img2go.com/ 934:895
+        <>
           <SwiperSlide>
             <img
               className={styles.projectimg}
@@ -121,12 +118,10 @@ const ProjectSwiper = (name: INameProps) => {
             ></img>
           </SwiperSlide>
         </>
-      )
-    }
-    else if (name.name === "Habit Hole") {
+      );
+    } else if (name.name === "Habit Hole") {
       return (
         <>
-          // TODO: https://www.img2go.com/ 934:895
           <SwiperSlide>
             <img
               className={styles.projectimg}
@@ -169,11 +164,10 @@ const ProjectSwiper = (name: INameProps) => {
           </SwiperSlide>
         </>
       );
-    }
-    else if (name.name === "Portfolio 2.0") {
+    } else if (name.name === "Portfolio 2.0") {
       return (
         <>
-          // TODO: https://www.img2go.com/ 934:895
+
           <SwiperSlide>
             <img
               className={styles.projectimg}
@@ -202,7 +196,7 @@ const ProjectSwiper = (name: INameProps) => {
             ></img>
           </SwiperSlide>
         </>
-      )
+      );
     }
   };
 
