@@ -59,6 +59,7 @@ export const ProjectsSection = styled.div`
 width: 100%;
 margin: auto;
 display: flex;
+flex-direction: column;
 justify-content: center;
 `;
 
