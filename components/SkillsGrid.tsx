@@ -13,7 +13,7 @@ import {
 const ProjectsGrid = () => {
   return (
     <>
-      {" "}
+
       <TitleContainer>Skills</TitleContainer>
       <SkillsContainer>
         <SkillsCard>
