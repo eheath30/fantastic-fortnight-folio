@@ -1,12 +1,12 @@
 import React from "react";
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "../styles/ImgCarousel.module.css"
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/effect-cards";
 
-// import required modules
+
 import { EffectCards } from "swiper";
 
 import passwordgenerator from "../assets/ImgsCarousel/passwordgenerator.png";
