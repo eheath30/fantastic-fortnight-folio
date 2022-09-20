@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.section`
-display: flex;
+display: grid;
 align-items: center;
 justify-content: center;
 flex-wrap: wrap;
@@ -9,6 +9,15 @@ max-width: 1200px;
 margin-bottom: 3rem;
 padding-bottom: 3rem;
 border-bottom:1px solid #222;
+@media (min-width: 900px) {
+  grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 1200px) {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
 `;
 
 export const SkillsCard = styled.div`
