@@ -153,7 +153,6 @@ const ProjectsGrid = () => {
               style={{ height: "35px" }}
               alt="Markdown"
             />
-
           </Skill>
           <Skill>
             <img
