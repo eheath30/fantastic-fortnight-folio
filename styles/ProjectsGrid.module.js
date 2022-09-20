@@ -30,3 +30,6 @@ border-radius: 10px;
 transition: color 0.15s ease, border-color 0.15s ease;
 max-width: 300px;
 `;
+
+export const ProjectsSection = styled.div`
+`;

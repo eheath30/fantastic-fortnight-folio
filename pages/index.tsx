@@ -6,7 +6,7 @@ import ProjectsGrid from "../components/ProjectsGrid";
 import SkillsGrid from "../components/SkillsGrid";
 import Hero from "../components/Hero";
 import {motion} from 'framer-motion'
-
+import Footer from "../components/Layout/Footer";
 
 const containerVariants = {
   hidden: {
@@ -38,29 +38,20 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Hero />
         <motion.div
-      style={{ height: "80vh", borderBottom:"1px solid #222", width: "80%", marginBottom:"2rem"}}
+      style={{ height: "60vh", width: "80%", marginBottom:"2rem"}}
       variants={containerVariants}
       initial="hidden"
       animate="visible"
       exit="exit"
+      className={styles.motionmain}
     >
         <SkillsGrid />
         <ProjectsGrid />
+        <Footer/>
         </motion.div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+
     </div>
   );
 };

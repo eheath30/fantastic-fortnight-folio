@@ -7,7 +7,7 @@ interface ILayoutProps {
 
 const Layout: React.FC<ILayoutProps> = ({ children }) => {
   return (
-    <div className={styles.container}>
+    <div>
       <Nav />
       <section className={styles.section}>{children}</section>
     </div>

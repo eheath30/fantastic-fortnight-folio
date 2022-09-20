@@ -4,13 +4,14 @@ import {
   TitleContainer,
   ProjectsContainer,
   ProjectCard,
+  ProjectsSection
 } from "../styles/ProjectsGrid.module.js";
 
 const ProjectsGrid = () => {
   return (
-    <>
+    <ProjectsSection id="recent-projects">
       <TitleContainer>Projects</TitleContainer>
-      <ProjectsContainer id="recent-projects">
+      <ProjectsContainer>
         <ProjectCard>
           <h2>header 2</h2>
           <p>
@@ -65,7 +66,7 @@ const ProjectsGrid = () => {
           </p>
         </ProjectCard>
       </ProjectsContainer>
-    </>
+    </ProjectsSection>
   );
 };
 
