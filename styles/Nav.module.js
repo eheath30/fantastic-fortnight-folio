@@ -7,7 +7,7 @@ export const LeftContainer = styled.div`
   @media (min-width: 900px) {
     padding: 1rem 2rem 0 1.5rem;
   }
-  padding: 1rem 2rem 0 1rem;
+  padding: 0.8rem 2rem 0 1rem;
   font-size: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -29,6 +29,8 @@ export const NavbarInnerContainer = styled.div`
 
 export const NavbarLinkContainer = styled.div`
   display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
 `;
 
 export const NavbarLink = styled.a`
@@ -38,10 +40,17 @@ export const NavbarLink = styled.a`
   @media (prefers-color-scheme: light) {
     color: #0C2D48;
     }
-  font-size: x-large;
+  font-size: 1.6rem;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  margin: 10px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  &:hover {
+    background-color: #145da0;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.02);
+  }
   @media (max-width: 700px) {
     display: none;
   }
@@ -54,7 +63,7 @@ export const NavbarLinkExtended = styled.a`
   @media (prefers-color-scheme: light) {
     color: #0C2D48;
     }
-  font-size: x-large;
+  font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
