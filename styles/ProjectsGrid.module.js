@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const TitleContainer = styled.div`
-  margin: 2rem 0 1rem 0;
+
+  @media (min-width: 900px) {
+    margin: 2rem 0 1.5rem 0;
+  }
+  margin: 1.2rem 0 1rem 0;
   line-height: 1.15;
   font-size: 4rem;
   text-align: center;
@@ -25,6 +29,7 @@ export const ProjectCard = styled.div`
   @media (min-width: 1200px) {
     margin: 1rem;
   }
+  margin-bottom: 1.5rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -44,4 +49,12 @@ export const ProjectCard = styled.div`
   }
 `;
 
-export const ProjectsSection = styled.div``;
+export const ProjectsSection = styled.div`
+`;
+
+export const ProjectLinks = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0.3rem 0 0.3rem 0;
+`;

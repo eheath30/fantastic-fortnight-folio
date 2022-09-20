@@ -28,11 +28,6 @@ const ProjectSwiper = () => {
     <SwiperSlide><img src="https://cdn.vox-cdn.com/thumbor/3GvnfOvGZB3paInd57sdlY1Hvu8=/0x0:1006x1014/1200x0/filters:focal(0x0:1006x1014):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22438217/Screen_Shot_2021_04_12_at_8.16.17_AM.png" width={"100%"} height={"auto"}></img></SwiperSlide>
     <SwiperSlide><img src="https://cdn.vox-cdn.com/thumbor/3GvnfOvGZB3paInd57sdlY1Hvu8=/0x0:1006x1014/1200x0/filters:focal(0x0:1006x1014):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22438217/Screen_Shot_2021_04_12_at_8.16.17_AM.png" width={"100%"} height={"auto"}></img></SwiperSlide>
     <SwiperSlide><img src="https://cdn.vox-cdn.com/thumbor/3GvnfOvGZB3paInd57sdlY1Hvu8=/0x0:1006x1014/1200x0/filters:focal(0x0:1006x1014):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22438217/Screen_Shot_2021_04_12_at_8.16.17_AM.png" width={"100%"} height={"auto"}></img></SwiperSlide>
-    <SwiperSlide>Slide 5</SwiperSlide>
-    <SwiperSlide>Slide 6</SwiperSlide>
-    <SwiperSlide>Slide 7</SwiperSlide>
-    <SwiperSlide>Slide 8</SwiperSlide>
-    <SwiperSlide>Slide 9</SwiperSlide>
   </Swiper>
   )
 }

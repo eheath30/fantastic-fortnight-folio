@@ -6,6 +6,7 @@ import {
   ProjectsContainer,
   ProjectCard,
   ProjectsSection,
+  ProjectLinks
 } from "../styles/ProjectsGrid.module.js";
 
 const ProjectsGrid = () => {
@@ -19,6 +20,10 @@ const ProjectsGrid = () => {
             The culmination of a full-stack training course. Built using JavaScript, ReactJS, Flask, PostgreSQL, Tiled, Bootstrap and custom CSS libararies.
           </p>
           <ProjectSwiper/>
+          <ProjectLinks>
+            <button>Github</button>
+            <button>Live</button>
+          </ProjectLinks>
         </ProjectCard>
 
         <ProjectCard>

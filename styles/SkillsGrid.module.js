@@ -4,9 +4,8 @@ export const SkillsContainer = styled.section`
   display: grid;
   align-items: center;
   justify-content: center;
-
   max-width: 1400px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding-bottom: 3rem;
   border-bottom: 1px solid #222;
   @media (min-width: 900px) {
@@ -63,7 +62,7 @@ export const SkillNameVariant = styled.span`
 `;
 
 export const TitleContainer = styled.div`
-  margin: 0 0 1rem 0;
+  margin: 1rem 0 1rem 0;
   line-height: 1.15;
   font-size: 4rem;
   text-align: center;
