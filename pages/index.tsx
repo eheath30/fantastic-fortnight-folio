@@ -5,6 +5,23 @@ import styles from "../styles/Home.module.css";
 import ProjectsGrid from "../components/ProjectsGrid";
 import SkillsGrid from "../components/SkillsGrid";
 import Hero from "../components/Hero";
+import {motion} from 'framer-motion'
+
+
+const containerVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { delay: 0.5, duration: 1.5 },
+  },
+  exit: {
+    x: "-100vh",
+    transition: { ease: "easeInOut" },
+  },
+};
+
 
 const Home: NextPage = () => {
   return (
@@ -20,8 +37,16 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Hero />
+        <motion.div
+      style={{ height: "100%", borderBottom:"1px solid #222", width: "80%", marginBottom:"2rem"}}
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
         <SkillsGrid />
         <ProjectsGrid />
+        </motion.div>
       </main>
 
       <footer className={styles.footer}>
