@@ -5,9 +5,9 @@ export const LeftContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   @media (min-width: 900px) {
-    padding: 1.5rem 2rem 0 1.5rem;
+    padding: 1rem 2rem 0 1.5rem;
   }
-  padding: 0.5rem 2rem 0 1rem;
+  padding: 1rem 2rem 0 1rem;
   font-size: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
