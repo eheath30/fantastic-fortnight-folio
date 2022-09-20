@@ -36,21 +36,28 @@ export const NavbarLinkContainer = styled.div`
 export const NavbarLink = styled.a`
 @media (prefers-color-scheme: dark) {
   color: #B1D4E0;
-  }
-  @media (prefers-color-scheme: light) {
-    color: #0C2D48;
-    }
-  font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  margin: 0.5rem;
-  padding: 0.5rem;
   &:hover {
     background-color: #145da0;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transform: scale(1.02);
   }
+  }
+  @media (prefers-color-scheme: light) {
+    color: #0C2D48;
+    &:hover {
+
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      transform: scale(1.02);
+    }
+    }
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+
   @media (max-width: 700px) {
     display: none;
   }
