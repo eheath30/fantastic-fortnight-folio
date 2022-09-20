@@ -51,7 +51,7 @@ const ProjectsGrid = () => {
   const Projects = () => {
     return projectdata.map(({ name, description, github, site }: ListData) => {
       return (
-        <ProjectCard>
+        <ProjectCard key={name}>
           <h2>{name}</h2>
           <p>{description}</p>
           <ProjectSwiper name={name.toString()}/>
