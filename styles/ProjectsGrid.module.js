@@ -17,20 +17,25 @@ export const TitleContainer = styled.div`
 export const ProjectsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  @media (max-width: 1200px) {
+  @media (max-width: 1310px) {
     grid-template-columns: repeat(1, 1fr);
   }
   max-width: 1400px;
+  @media (min-width: 1200px) {
+    gap: 1rem;
+  }
+  @media (min-width: 1360px) {
+    gap: 2rem;
+  }
 `;
 
 export const ProjectCard = styled.div`
   display: flex;
   flex-direction: column;
-  @media (min-width: 1200px) {
-    margin: 1rem;
-  }
-  margin-bottom: 1.5rem;
   padding: 1.5rem;
+  @media (max-width: 1200px) {
+    margin-bottom: 1.5rem;
+  }
   text-align: left;
   color: inherit;
   text-decoration: none;
@@ -38,6 +43,7 @@ export const ProjectCard = styled.div`
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 700px;
+
   @media (prefers-color-scheme: light) {
     border: 1px inset RGBA(46, 139, 192, 1);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -50,6 +56,8 @@ export const ProjectCard = styled.div`
 `;
 
 export const ProjectsSection = styled.div`
+width: 100%;
+margin: auto;
 `;
 
 export const ProjectLinks = styled.div`
