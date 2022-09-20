@@ -38,7 +38,7 @@ const Hero = () => {
       exit="exit"
     >
       <TitleContainer>
-        Let&#39;s talk about
+        <pre>Let&#39;s talk about</pre>
         <TypicalContainer>
           <Typical
             wrapper="p"
