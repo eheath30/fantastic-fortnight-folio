@@ -60,7 +60,7 @@ width: 100%;
 margin: auto;
 display: flex;
 flex-direction: column;
-justify-content: center;
+align-items: center;
 `;
 
 export const ProjectLinks = styled.div`
