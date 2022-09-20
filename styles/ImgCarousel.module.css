@@ -1,0 +1,32 @@
+
+.swiper {
+    width: 11rem;
+    height: 16rem;
+  }
+
+  .swiperslide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #b1d4e0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px 2px,
+      rgba(0, 0, 0, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+
+  .swiperslide:nth-child(1n) {
+    background-color: #2e8bc0;
+  }
+
+  .swiperslide:nth-child(2n) {
+    background-color: #145da0;
+  }
+
+  .swiperslide:nth-child(3n) {
+    background-color: #b1d4e0;
+  }

@@ -1,10 +1,11 @@
 import React from "react";
+import ProjectSwiper from "./ProjectSwiper"
 
 import {
   TitleContainer,
   ProjectsContainer,
   ProjectCard,
-  ProjectsSection
+  ProjectsSection,
 } from "../styles/ProjectsGrid.module.js";
 
 const ProjectsGrid = () => {
@@ -13,12 +14,11 @@ const ProjectsGrid = () => {
       <TitleContainer>Projects</TitleContainer>
       <ProjectsContainer>
         <ProjectCard>
-          <h2>header 2</h2>
+          <h2>Games Grotto</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            corrupti temporibus vero repellendus quo ad, animi ullam reiciendis
-            laborum aliquid ut sequi qui commodi.
+            The culmination of a full-stack training course. Built using JavaScript, ReactJS, Flask, PostgreSQL, Tiled, Bootstrap and custom CSS libararies.
           </p>
+          <ProjectSwiper/>
         </ProjectCard>
 
         <ProjectCard>

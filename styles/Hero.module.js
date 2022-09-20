@@ -27,15 +27,17 @@ export const DescriptionContainer = styled.div`
   font-size: 1.5rem;
   @media (max-width: 700px) {
     font-size: 1rem;
-
   }
-  @media (orientation : landscape) {
+  @media (orientation: landscape) {
     margin: 12vh 0;
   }
 `;
 
 export const CodeContainer = styled.a`
+  text-decoration: none;
   background: #2e8bc0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;

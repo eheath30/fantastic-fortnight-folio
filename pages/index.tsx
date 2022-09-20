@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import ProjectsGrid from "../components/ProjectsGrid";
 import SkillsGrid from "../components/SkillsGrid";
 import Hero from "../components/Hero";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import Footer from "../components/Layout/Footer";
 
 const containerVariants = {
@@ -22,7 +22,6 @@ const containerVariants = {
   },
 };
 
-
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -38,20 +37,18 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Hero />
         <motion.div
-      style={{ height: "60vh", width: "80%", marginBottom:"2rem"}}
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-      className={styles.motionmain}
-    >
-        <SkillsGrid />
-        <ProjectsGrid />
-        <Footer/>
+          style={{ height: "60vh", width: "80%", marginBottom: "2rem" }}
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+          className={styles.motionmain}
+        >
+          <SkillsGrid />
+          <ProjectsGrid />
+          <Footer />
         </motion.div>
       </main>
-
-
     </div>
   );
 };
