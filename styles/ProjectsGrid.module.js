@@ -21,12 +21,7 @@ export const ProjectsContainer = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
   max-width: 1400px;
-  @media (min-width: 1200px) {
-    gap: 1rem;
-  }
-  @media (min-width: 1360px) {
-    gap: 2rem;
-  }
+
 `;
 
 export const ProjectCard = styled.div`
