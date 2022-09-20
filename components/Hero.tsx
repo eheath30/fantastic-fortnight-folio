@@ -26,7 +26,7 @@ const containerVariants = {
 const Hero = () => {
   return (
     <motion.div
-      style={{ height: "80%", borderBottom:"1px solid #222", width: "80%", marginBottom:"2rem"}}
+      style={{ height: "100%", borderBottom:"1px solid #222", width: "80%", marginBottom:"2rem"}}
       variants={containerVariants}
       initial="hidden"
       animate="visible"
