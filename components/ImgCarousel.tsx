@@ -27,7 +27,7 @@ import {
   RepoLink,
 } from "../styles/ImgCarousel.module.js";
 
-//  TODO: https://www.img2go.com/ 800:960
+
 
 const ImgSlider = () => {
   return (
@@ -163,4 +163,4 @@ const ImgSlider = () => {
   );
 };
 
-export default ImgSlider;
+export default ImgSlider
