@@ -58,3 +58,7 @@ body {
     border-color: #222;
   }
 }
+
+.link-1:before {
+  content: none;
+}

@@ -8,6 +8,11 @@ import Hero from "../components/Hero";
 import { motion } from "framer-motion";
 import Footer from "../components/Layout/Footer";
 
+import {
+  DescriptionContainer,
+  CodeContainer,
+} from "../styles/Hero.module.js";
+
 const containerVariants = {
   hidden: {
     opacity: 0,
@@ -46,6 +51,12 @@ const Home: NextPage = () => {
         >
           <SkillsGrid />
           <ProjectsGrid />
+          <DescriptionContainer>
+        Learn more 
+        <CodeContainer href="/about" rel="noopener noreferrer">
+          about me.
+        </CodeContainer>
+      </DescriptionContainer>
           <Footer />
         </motion.div>
       </main>
