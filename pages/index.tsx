@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Hero />
         <motion.div
-          style={{ height: "60vh", width: "80%", marginBottom: "2rem" }}
+          style={{ height: "60vh", width: "80vw", marginBottom: "2rem" }}
           variants={containerVariants}
           initial="hidden"
           animate="visible"
