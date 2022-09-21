@@ -99,6 +99,7 @@ export const LinkAnchor = styled.a`
   vertical-align: middle;
   white-space: nowrap;
   width: 100%;
+  min-height: 3rem;
 
   &:after {
   background-clip: padding-box;
