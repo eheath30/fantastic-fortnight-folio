@@ -50,9 +50,10 @@
   .swipeiconleftlight {
     width: 3rem;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0.5rem;
+    right: 0.5rem;
     filter: invert(100%);
+    transform: rotate(-10deg);
   }
   .swipeiconleftdark {
     width: 3rem;
@@ -66,9 +67,10 @@
   .swipeiconleftlight {
     width: 5rem;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0.5rem;
+    right: 0.6rem;
     filter: invert(100%);
+    transform: rotate(-10deg);
   }
   .swipeiconleftdark {
     width: 5rem;

@@ -23,9 +23,9 @@ import bionictext from "../assets/ImgsCarousel/bionictext.png";
 import {
   SliderContainer,
   CarouselImg,
-  Dot,
   RepoLink,
-  ArrowSVG
+  ArrowSVGLeft,
+  ArrowSVGRight
 } from "../styles/ImgCarousel.module.js";
 
 
@@ -41,9 +41,10 @@ const ImgSlider = () => {
       >
         <SwiperSlide className={styles.swiperslide}>
 
-          <ArrowSVG xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5" />
-</ArrowSVG>
+
+<ArrowSVGLeft xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+</ArrowSVGLeft>
 
 
           <CarouselImg src={quizzlybears.src} alt="quizzlybears" />
@@ -125,22 +126,9 @@ const ImgSlider = () => {
           </RepoLink>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
-          <Dot>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1"
-              stroke="currentColor"
-              width={"3rem"}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              />
-            </svg>
-          </Dot>
+          <ArrowSVGRight xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+</ArrowSVGRight>
           <CarouselImg src={bionictext.src} alt="bionictext" />
           <RepoLink
             href="https://codepen.io/eheath30/pen/qBxmMXo"

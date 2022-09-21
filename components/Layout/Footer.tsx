@@ -52,7 +52,7 @@ const Footer = () => {
 
           <FooterTextLink href="/about">About</FooterTextLink>
 
-          <FooterTextLink href="/contact">Contact</FooterTextLink>
+          <FooterTextLink href="/contact">{`<Code/>`}</FooterTextLink>
         </FooterTextLinks>
         <p>Elliot Heath [MIT] 2022</p>
       </FooterLeft>
