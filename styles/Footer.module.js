@@ -21,7 +21,7 @@ export const FooterContainer = styled.section`
 export const FooterRight = styled.div`
   float: right;
   margin-top: 6px;
-  max-width: 180px;
+  max-width: 300px;
   @media (max-width: 1310px) {
     text-align: center;
     float: none;
@@ -49,6 +49,12 @@ export const FooterSocialLink = styled.a`
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
+  @media (prefers-color-scheme: dark) {
+    filter: invert(100%);
+    }
+    @media (min-width: 1310px) {
+      margin: 0 0.5rem 0 0.5rem;
+    }
   text-align: center;
   line-height: 35px;
   margin-left: 0.5rem;
@@ -63,6 +69,7 @@ export const FooterTextLinks = styled.p`
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
+
   margin: 0 0 10px;
   padding: 0
   color: #8f9296;
@@ -77,6 +84,9 @@ export const FooterTextLinks = styled.p`
     font-size: 20px;
     left: 0;
     color: #fff;
+    @media (prefers-color-scheme: light) {
+      color: #071125;
+      }
     display: inline-block;
     padding-right: 0.2rem;
     padding-left: 0.2rem;
@@ -98,6 +108,9 @@ export const FooterTextLink = styled.a`
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
+  @media (prefers-color-scheme: light) {
+    color: #071125;
+    }
   margin: 0 0 10px;
   padding: 0 0.2rem 0 0.2rem;
   display: inline-block;
@@ -111,7 +124,16 @@ export const FooterTextLink = styled.a`
     font-size: 20px;
     left: 0;
     color: #fff;
+    @media (prefers-color-scheme: light) {
+      color: #071125;
+      }
     display: inline-block;
     padding-right: 5px;
+  }
+`;
+
+export const FooterNote = styled.p`
+@media (prefers-color-scheme: light) {
+  color: #071125;
   }
 `;

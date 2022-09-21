@@ -100,7 +100,10 @@ export const LinkAnchor = styled.a`
   white-space: nowrap;
   width: 100%;
   min-height: 3rem;
-
+  @media (prefers-color-scheme: light) {
+    color: #071125;
+    text-decoration: none;
+    }
   &:after {
   background-clip: padding-box;
   background-color: #145DA0;
