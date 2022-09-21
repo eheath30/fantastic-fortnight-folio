@@ -10,7 +10,7 @@ export const FooterContainer = styled.section`
   font: normal 16px sans-serif;
   padding: 45px 50px;
   border-top: 1px solid #222;
-  @media (max-width: 700px) {
+  @media (max-width: 1300px) {
     float: none;
     margin: 0 auto 20px;
     text-align: center;
@@ -21,8 +21,8 @@ export const FooterContainer = styled.section`
 export const FooterRight = styled.div`
   float: right;
   margin-top: 6px;
-  max-width: 220px;
-  @media (max-width: 700px) {
+  max-width: 180px;
+  @media (max-width: 1310px) {
     text-align: center;
     float: none;
     margin: 0 auto 20px;
@@ -34,7 +34,9 @@ export const FooterLeft = styled.section`
   font-size: 14px;
   margin: 0;
   text-align: center;
-  @media (max-width: 700px) {
+  float: left;
+  @media (max-width: 1310px) {
+    float: none;
     text-align: center;
     line-height: 1.8;
   }

@@ -1,11 +1,10 @@
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import styles from "../styles/ImgCarousel.module.css"
+import styles from "../styles/ImgCarousel.module.css";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
-
 
 import { EffectCards } from "swiper";
 
@@ -25,10 +24,8 @@ import {
   CarouselImg,
   RepoLink,
   ArrowSVGLeft,
-  ArrowSVGRight
+  ArrowSVGRight,
 } from "../styles/ImgCarousel.module.js";
-
-
 
 const ImgSlider = () => {
   return (
@@ -40,12 +37,20 @@ const ImgSlider = () => {
         className={styles.swiper}
       >
         <SwiperSlide className={styles.swiperslide}>
-
-
-<ArrowSVGLeft xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-</ArrowSVGLeft>
-
+          <ArrowSVGLeft
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </ArrowSVGLeft>
 
           <CarouselImg src={quizzlybears.src} alt="quizzlybears" />
           <RepoLink
@@ -126,9 +131,19 @@ const ImgSlider = () => {
           </RepoLink>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
-          <ArrowSVGRight xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-</ArrowSVGRight>
+          <ArrowSVGRight
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </ArrowSVGRight>
           <CarouselImg src={bionictext.src} alt="bionictext" />
           <RepoLink
             href="https://codepen.io/eheath30/pen/qBxmMXo"
@@ -142,4 +157,4 @@ const ImgSlider = () => {
   );
 };
 
-export default ImgSlider
+export default ImgSlider;
