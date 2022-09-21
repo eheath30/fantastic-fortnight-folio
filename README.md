@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Fantastic Folio
 
-## Getting Started
+An ever expanding Portfolio site built primarly using ReactJS and TypeScript.
 
-First, run the development server:
+Development site live at: [ehdev.netlify.app](www.ehdev.netlify.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Technologies Used
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height=40/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Getting started
+1. Clone this repository: <br>
+    ```https://github.com/eheath30/fantastic-fortnight-folio```
+    <br>
+2. CD into fantastic-fortnight-folio and install dependencies: <br>
+    ```npm i```
+    <br>
+3. Start the client: <br>
+    ```npm start```
+    
+   <br>
+        
+# Features
+- Routing
+- Server Rendering
+- Swiperjs
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<br>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Changelog
+- Excalidraw wireframe: [Excalidraw Portfolio 2.0](https://excalidraw.com/#json=TY1CaC_TzbThyDbfTYb7z,JhdpNmN6cOPsfd-lE4xVgA)
+- Basic trello system using: [Todo Tabs](www.todotabs.netlify.app) (https://github.com/eheath30/Todo-Tabs)
+- Prototyping
+- Building
+- UI design
 
-## Learn More
+# Future features
+- Blog
+- About
+- Contact
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
+<hr/>
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+_Thankyou for reading_
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
