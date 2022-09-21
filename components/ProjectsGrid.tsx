@@ -21,14 +21,14 @@ let projectdata = [
   {
     name: "Quizzly Bears",
     description:
-      "A full-stack online multiplayer quiz game. Built using reactjs, framermotion, bootstrap, socketio and redux",
+      "A full-stack online multiplayer quiz game. Built using reactjs, framermotion, bootstrap, socketio and redux.",
     github: "https://github.com/eheath30/quizzly-bears-netlify",
     site: "https://quizzly-bears.netlify.app/",
   },
   {
     name: "Habit Hole",
     description:
-      "A sleep tracker with secure auth and data graphing. Built using html, css, javascript, docker, nodejs, expressjs, postgreSQL and chartjs",
+      "A sleep tracker with secure auth and data graphing. Built using html, css, javascript, docker, nodejs, expressjs, postgreSQL and chartjs.",
     github: "https://github.com/eheath30/GamesGrotto-Client",
     site: "https://games-grotto.netlify.app/",
   },
