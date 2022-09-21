@@ -2,7 +2,7 @@
 
 An ever expanding Portfolio site built primarly using ReactJS and TypeScript.
 
-Development site live at: [ehdev.netlify.app](www.ehdev.netlify.app)
+Development site live at: https://ehdev.netlify.app
 
 ## Technologies Used
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height=40/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height=40/>
@@ -29,8 +29,8 @@ Development site live at: [ehdev.netlify.app](www.ehdev.netlify.app)
 <br>
 
 # Changelog
-- Excalidraw wireframe: [Excalidraw Portfolio 2.0](https://excalidraw.com/#json=TY1CaC_TzbThyDbfTYb7z,JhdpNmN6cOPsfd-lE4xVgA)
-- Basic trello system using: [Todo Tabs](www.todotabs.netlify.app) (https://github.com/eheath30/Todo-Tabs)
+- Excalidraw wireframe: https://excalidraw.com/#json=TY1CaC_TzbThyDbfTYb7z,JhdpNmN6cOPsfd-lE4xVgA
+- Basic kanban using: https://todotabs.netlify.app
 - Prototyping
 - Building
 - UI design
