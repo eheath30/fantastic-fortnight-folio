@@ -8,11 +8,10 @@ import {
   NavbarInnerContainer,
   NavbarLinkContainer,
   NavbarLink,
-  Logo,
   OpenLinksButton,
   NavbarLinkExtended,
 } from "../../styles/Nav.module.js";
-// import LogoImg from "../../assets/cat.jpg"
+
 
 interface INav {
   expandNavbar: boolean;
@@ -32,6 +31,7 @@ export const NavbarContainer = styled.nav<INav>`
 const Nav = () => {
   const [expandNavbar, setExpandNavbar] = useState<boolean>(false);
 
+
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.6 }}
@@ -41,14 +41,13 @@ const Nav = () => {
       <NavbarContainer expandNavbar={expandNavbar}>
         <NavbarInnerContainer>
           <LeftContainer>
-            {/* <Logo src={LogoImg.src}></Logo> */}
             Elliot Heath
           </LeftContainer>
           <RightContainer>
             <NavbarLinkContainer>
               <NavbarLink href="/"> Home</NavbarLink>
               <NavbarLink href="/blog"> Blog</NavbarLink>
-              {/* <NavbarLink href="/contact"> Contact Us</NavbarLink> */}
+              {/* <NavbarLink href="/contact"> Contact</NavbarLink> */}
               <NavbarLink href="/about"> About </NavbarLink>
               <OpenLinksButton
                 onClick={() => {
@@ -98,7 +97,7 @@ const Nav = () => {
           <NavbarExtendedContainer>
             <NavbarLinkExtended href="/"> Home</NavbarLinkExtended>
             <NavbarLinkExtended href="/blog"> Blog</NavbarLinkExtended>
-            {/* <NavbarLinkExtended href="/contact"> Contact Us</NavbarLinkExtended> */}
+            {/* <NavbarLinkExtended href="/contact"> Contact</NavbarLinkExtended> */}
             <NavbarLinkExtended href="/about"> About </NavbarLinkExtended>
           </NavbarExtendedContainer>
         )}

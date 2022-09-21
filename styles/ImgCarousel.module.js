@@ -9,9 +9,20 @@ export const CarouselImg = styled.img`
 `;
 
 export const Dot = styled.div`
-  align-self: center;
-  font-size: 0rem;
+position: absolute;
+top: 0;
+left: 0;
+  font-size: 1rem;
   color: #0c2d48;
+  z-index: 999;
+`;
+
+export const ArrowSVG = styled.svg`
+  position: absolute;
+  width: 20%;
+  filter: invert(100%);
+  top: 0.1rem;
+  left: 0.1rem;
 `;
 
 export const RepoLink = styled.a`

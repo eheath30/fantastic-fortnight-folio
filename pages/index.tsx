@@ -29,7 +29,7 @@ const containerVariants = {
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+<div className={styles.container}>
       <Head>
         <title>Elliot Heath Portfolio</title>
         <meta
@@ -57,9 +57,11 @@ const Home: NextPage = () => {
           about me.
         </CodeContainer>
       </DescriptionContainer>
-          <Footer />
+      <Footer />
         </motion.div>
+
       </main>
+
     </div>
   );
 };

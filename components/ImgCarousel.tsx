@@ -25,6 +25,7 @@ import {
   CarouselImg,
   Dot,
   RepoLink,
+  ArrowSVG
 } from "../styles/ImgCarousel.module.js";
 
 
@@ -39,22 +40,12 @@ const ImgSlider = () => {
         className={styles.swiper}
       >
         <SwiperSlide className={styles.swiperslide}>
-          <Dot>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1"
-              stroke="currentColor"
-              width={"3rem"}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
-              />
-            </svg>
-          </Dot>
+
+          <ArrowSVG xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5" />
+</ArrowSVG>
+
+
           <CarouselImg src={quizzlybears.src} alt="quizzlybears" />
           <RepoLink
             href="https://github.com/eheath30/quizzly-bears-netlify"
