@@ -33,13 +33,28 @@
   color: #fff;
 }
 
-.projectimg {
-  border: 0.3rem inset #b1d4e0;
-  border-radius: 0.1rem;
+@media (prefers-color-scheme: light) {
+  .projectimg {
+    border-radius: 0.1rem;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .projectimg {
+    border: 0.3rem inset #b1d4e0;
+    border-radius: 0.1rem;
+  }
 }
 
+
 @media (max-width: 900px) {
-  .swipeiconleft {
+  .swipeiconleftlight {
+    width: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: invert(100%);
+  }
+  .swipeiconleftdark {
     width: 3rem;
     position: absolute;
     bottom: 0;
@@ -48,7 +63,14 @@
 }
 
 @media (min-width: 900px) {
-  .swipeiconleft {
+  .swipeiconleftlight {
+    width: 5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: invert(100%);
+  }
+  .swipeiconleftdark {
     width: 5rem;
     position: absolute;
     bottom: 0;

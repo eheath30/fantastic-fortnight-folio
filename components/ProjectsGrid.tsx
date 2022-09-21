@@ -7,6 +7,7 @@ import {
   ProjectCard,
   ProjectsSection,
   ProjectLinks,
+  LinkAnchor
 } from "../styles/ProjectsGrid.module.js";
 
 let projectdata = [
@@ -56,8 +57,8 @@ const ProjectsGrid = () => {
           <p>{description}</p>
           <ProjectSwiper name={name.toString()}/>
           <ProjectLinks>
-            <a href={github}>Github</a>
-            <a href={site}>Live</a>
+            <LinkAnchor href={github}>Github</LinkAnchor>
+            <LinkAnchor href={site}>Live</LinkAnchor>
           </ProjectLinks>
         </ProjectCard>
       );
