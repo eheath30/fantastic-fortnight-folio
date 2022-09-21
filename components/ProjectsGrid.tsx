@@ -29,14 +29,14 @@ let projectdata = [
     name: "Habit Hole",
     description:
       "A sleep tracker with secure auth and data graphing. Built using html, css, javascript, docker, nodejs, expressjs, postgreSQL and chartjs.",
-    github: "https://github.com/eheath30/GamesGrotto-Client",
-    site: "https://games-grotto.netlify.app/",
+    github: "https://github.com/eheath30/habit-hole",
+    site: "https://habithole.netlify.app/",
   },
   {
     name: "Portfolio 2.0",
     description:
       "A full-stack portfolio site built using typescript, reactjs, styled components, nextjs and framer motion.",
-    github: "https://github.com/eheath30/GamesGrotto-Client",
+    github: "https://github.com/eheath30/fantastic-fortnight-folio",
     site: "https://ehdev.netlify.app/",
   },
 ];
