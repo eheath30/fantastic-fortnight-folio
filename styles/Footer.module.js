@@ -133,6 +133,8 @@ export const FooterTextLink = styled.a`
 `;
 
 export const FooterNote = styled.p`
+text-align: start;
+padding-left: 1rem;
 @media (prefers-color-scheme: light) {
   color: #071125;
   }
