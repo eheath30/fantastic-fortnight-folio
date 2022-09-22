@@ -133,7 +133,10 @@ export const FooterTextLink = styled.a`
 `;
 
 export const FooterNote = styled.p`
-text-align: start;
+@media (min-width: 1310px) {
+  text-align: start;
+}
+text-align: center;
 padding-left: 1rem;
 @media (prefers-color-scheme: light) {
   color: #071125;
