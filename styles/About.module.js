@@ -35,7 +35,7 @@ export const AboutGridImg = styled.img`
 export const AboutMe = styled.div``;
 
 export const Contact = styled.div`
-  @media (max-width: 1310px) {
+  @media (max-width: 1311px) {
     display: none;
   }
   @media (min-width: 1311px) {
@@ -64,10 +64,7 @@ export const ContactMeHeader = styled.h2`
     font-size: 1.8rem;
   }
   @media (max-width: 1310px) {
-    padding: 3rem 0 1rem 0;
-    border-bottom: 1px solid #222;
-    width: 50%;
-    font-size: 1.5rem;
+    display: none;
   }
 `;
 
@@ -82,7 +79,7 @@ export const AboutMeContent = styled.p`
   }
 `;
 
-export const SpecialContact = styled.p`
+export const SpecialContact = styled.div`
   max-width: 30rem;
   @media (min-width: 1311px) {
     display: none;
@@ -90,4 +87,16 @@ export const SpecialContact = styled.p`
   @media (max-width: 1310px) {
     font-size: smaller;
   }
+`;
+
+export const SpecialContactMeHeader = styled.p`
+@media (min-width: 1311px) {
+  display: none;
+}
+@media (max-width: 1310px) {
+  padding: 3rem 0 1rem 0;
+  border-bottom: 1px solid #222;
+  width: 50%;
+  font-size: 1.5rem;
+}
 `;

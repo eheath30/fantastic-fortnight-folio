@@ -30,14 +30,6 @@ const containerVariants = {
 const Home: NextPage = () => {
   return (
 <div className={styles.container}>
-      <Head>
-        <title>Elliot Heath Portfolio</title>
-        <meta
-          name="description"
-          content="A portfolio site built using Nextjs, Reactjs, Typescript & Styled Components"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className={styles.main}>
         <Hero />

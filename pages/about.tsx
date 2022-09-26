@@ -15,7 +15,8 @@ import {
   AboutMeHeader,
   AboutMeContent,
   ContactMeHeader,
-  SpecialContact
+  SpecialContact,
+  SpecialContactMeHeader
 } from "../styles/About.module.js";
 
 const containerVariants = {
@@ -35,14 +36,6 @@ const containerVariants = {
 const About: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Elliot Heath Portfolio</title>
-        <meta
-          name="description"
-          content="A portfolio site built using Nextjs, Reactjs, Typescript & Styled Components"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <motion.h1
           variants={containerVariants}
           initial="hidden"
@@ -63,7 +56,7 @@ const About: NextPage = () => {
 Before taking up programming full-time, I worked as a teacher and consultant with numerous companies and schools worldwide.<br /><br />
 I&apos;ve decided to embark on a programming adventure and am currently studying software development full-time.  </AboutMeContent>
 <SpecialContact>
-      <ContactMeHeader>Contact</ContactMeHeader>
+      <SpecialContactMeHeader>Contact</SpecialContactMeHeader>
       <p>elliot.heath@btinternet.com</p>
       </SpecialContact>
       </AboutMe>
@@ -71,16 +64,6 @@ I&apos;ve decided to embark on a programming adventure and am currently studying
     </AboutContainer>
     <Footer/>
     </motion.h1>
-
-
-      {/* <main className={styles.main}>
-
-          Coming soon...
-
-      </main> */}
-
-
-
     </div>
   );
 };
