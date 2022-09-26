@@ -52,7 +52,7 @@ export const FooterSocialLink = styled.a`
   @media (prefers-color-scheme: dark) {
     filter: invert(100%);
     }
-    @media (min-width: 1310px) {
+    @media (min-width: 1311px) {
       margin: 0 0.5rem 0 0.5rem;
     }
   text-align: center;

@@ -11,7 +11,7 @@ export const SkillsContainer = styled.section`
   @media (min-width: 900px) {
     grid-template-columns: 1fr 1fr;
   }
-  @media (min-width: 1310px) {
+  @media (min-width: 1311px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 `;

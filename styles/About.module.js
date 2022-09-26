@@ -27,7 +27,7 @@ export const AboutGridImg = styled.img`
   width: 20rem;
   border-radius: 20px 5px 20px 5px;
 
-  @media (min-width: 1310px) {
+  @media (min-width: 1311px) {
     margin: 0 5rem 2rem 0;
   }
 `;
@@ -35,7 +35,7 @@ export const AboutGridImg = styled.img`
 export const AboutMe = styled.div``;
 
 export const Contact = styled.div`
-  @media (max-width: 1311px) {
+  @media (max-width: 1310px) {
     display: none;
   }
   @media (min-width: 1311px) {
