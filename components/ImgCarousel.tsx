@@ -6,7 +6,7 @@ import styles from "../styles/ImgCarousel.module.css";
 import "swiper/css";
 import "swiper/css/effect-cards";
 
-import { EffectCards } from "swiper";
+import { EffectCoverflow, Pagination } from "swiper";
 
 import passwordgenerator from "../assets/ImgsCarousel/passwordgenerator.png";
 import gamesgrotto from "../assets/ImgsCarousel/gamesgrotto.png";
@@ -31,9 +31,19 @@ const ImgSlider = () => {
   return (
     <SliderContainer>
       <Swiper
-        effect={"cards"}
+        effect={"coverflow"}
         grabCursor={true}
-        modules={[EffectCards]}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
         className={styles.swiper}
       >
         <SwiperSlide className={styles.swiperslide}>
