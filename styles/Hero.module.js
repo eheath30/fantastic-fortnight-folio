@@ -29,6 +29,7 @@ export const DescriptionContainer = styled.div`
   font-size: 1.5rem;
   @media (max-width: 700px) {
     font-size: 1rem;
+    margin: 6vh 0;
   }
   @media (orientation: landscape) {
     margin: 12vh 0;
