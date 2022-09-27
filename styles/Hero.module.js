@@ -1,5 +1,32 @@
 import styled from "styled-components";
 
+
+
+export const PageContainer = styled.div`
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+`;
+
+export const Main = styled.div`
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 1200px) {
+      padding: 6rem 0;
+  }
+  @media (max-width: 900px) {
+      padding: 2rem 0;
+  }
+`;
+
+
 export const TitleContainer = styled.div`
   margin: 0;
   line-height: 1.15;
@@ -51,32 +78,5 @@ export const CodeContainer = styled.a`
   }
   @media (max-width: 700px) {
     font-size: 1rem;
-  }
-`;
-
-
-export const PageContainer = styled.div`
-// Home Page Container
-  padding: 0 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-`;
-
-export const Main = styled.main`
-// Home Page Main
-  min-height: 100vh;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  @media (min-width: 1200px) {
-      padding: 6rem 0;
-  }
-  @media (max-width: 900px) {
-      padding: 2rem 0;
   }
 `;

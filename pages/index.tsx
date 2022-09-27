@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
-import { ProjectsGrid, SkillsGrid, Hero, Footer } from "../components"
+
 import styles from "../styles/Home.module.css";
+import { ProjectsGrid, SkillsGrid, Hero, Footer } from "../components"
 import { motion } from "framer-motion";
 
 import {
