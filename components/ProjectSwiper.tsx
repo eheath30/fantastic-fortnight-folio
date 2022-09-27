@@ -4,24 +4,10 @@ import "swiper/css";
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper";
 import styles from "../styles/ProjectSwiper.module.css";
-import gamesgrotto1 from "../assets/ProjectsCarousel/gamesgrotto1.png";
-import gamesgrotto2 from "../assets/ProjectsCarousel/gamesgrotto2.png";
-import gamesgrotto3 from "../assets/ProjectsCarousel/gamesgrotto3.png";
-import gamesgrotto4 from "../assets/ProjectsCarousel/gamesgrotto4.png";
-import gamesgrotto5 from "../assets/ProjectsCarousel/gamesgrotto5.png";
-import habithole1 from "../assets/ProjectsCarousel/habithole1.png";
-import habithole2 from "../assets/ProjectsCarousel/habithole2.png";
-import habithole3 from "../assets/ProjectsCarousel/habithole3.png";
-import habithole4 from "../assets/ProjectsCarousel/habithole4.png";
-import habithole5 from "../assets/ProjectsCarousel/habithole5.png";
-import quizzlybears1 from "../assets/ProjectsCarousel/quizzlybears1.png";
-import quizzlybears2 from "../assets/ProjectsCarousel/quizzlybears2.png";
-import quizzlybears3 from "../assets/ProjectsCarousel/quizzlybears3.png";
-import quizzlybears4 from "../assets/ProjectsCarousel/quizzlybears4.png";
-import quizzlybears5 from "../assets/ProjectsCarousel/quizzlybears5.png";
-import portfolio1 from "../assets/ProjectsCarousel/portfolio1.png";
-import portfolio2 from "../assets/ProjectsCarousel/portfolio2.png";
-import portfolio3 from "../assets/ProjectsCarousel/portfolio3.png";
+import {gamesgrotto1, gamesgrotto2, gamesgrotto3, gamesgrotto4, gamesgrotto5,
+  habithole1, habithole2, habithole3, habithole4, habithole5,
+  quizzlybears1, quizzlybears2, quizzlybears3, quizzlybears4, quizzlybears5,
+  portfolio1, portfolio2, portfolio3} from "../assets";
 
 interface INameProps {
   name: string;

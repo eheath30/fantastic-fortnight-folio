@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/Layout.module.css";
-import Nav from "./Nav";
+import {Nav} from "../index";
 interface ILayoutProps {
   children?: React.ReactNode;
 }

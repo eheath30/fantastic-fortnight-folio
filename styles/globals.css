@@ -35,30 +35,3 @@ body {
     background: #b1d4e0;
   }
 }
-
-.footer {
-  position: sticky;
-  bottom: 0;
-  align-items: center;
-  padding: 2rem 0;
-  border-top: 1px solid #b1d4e0;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-@media (prefers-color-scheme: dark) {
-  .footer {
-    border-color: #222;
-  }
-}
-
-.link-1:before {
-  content: none;
-}

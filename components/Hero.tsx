@@ -7,7 +7,7 @@ import {
   DescriptionContainer,
   CodeContainer,
 } from "../styles/Hero.module.js";
-import ImgSlider from "./ImgCarousel";
+import {ImgCarousel} from "./index";
 
 const containerVariants = {
   hidden: {
@@ -67,7 +67,7 @@ const Hero = () => {
         </TypicalContainer>
       </TitleContainer>
 
-      <ImgSlider />
+      <ImgCarousel />
 
       <DescriptionContainer>
         Scroll down to 

@@ -1,24 +1,11 @@
 import React from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "../styles/ImgCarousel.module.css";
-
 import "swiper/css";
 import "swiper/css/effect-cards";
-
 import { EffectCoverflow, Pagination } from "swiper";
 
-import passwordgenerator from "../assets/ImgsCarousel/passwordgenerator.png";
-import gamesgrotto from "../assets/ImgsCarousel/gamesgrotto.png";
-import todotabs from "../assets/ImgsCarousel/todotabs.png";
-import reecespieces from "../assets/ImgsCarousel/reecespieces.png";
-import quizzlybears from "../assets/ImgsCarousel/quizzlybears.png";
-import pandapost from "../assets/ImgsCarousel/pandapost.png";
-import githut from "../assets/ImgsCarousel/githut.png";
-import pizzalovers from "../assets/ImgsCarousel/pizzalovers.png";
-import habithole from "../assets/ImgsCarousel/habithole.png";
-import bionictext from "../assets/ImgsCarousel/bionictext.png";
-
+import {passwordgenerator, gamesgrotto,todotabs,reecespieces,quizzlybears,pandapost,githut,pizzalovers,habithole,bionictext} from "../assets"
 import {
   SliderContainer,
   CarouselImg,
@@ -27,7 +14,7 @@ import {
   ArrowSVGRight,
 } from "../styles/ImgCarousel.module.js";
 
-const ImgSlider = () => {
+const ImgCarousel = () => {
   return (
     <SliderContainer>
       <Swiper
@@ -167,4 +154,4 @@ const ImgSlider = () => {
   );
 };
 
-export default ImgSlider;
+export default ImgCarousel;

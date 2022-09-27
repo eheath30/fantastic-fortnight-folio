@@ -1,9 +1,7 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
-import Footer from "../components/Layout/Footer";
+import {Footer} from "../components";
 
 const containerVariants = {
   hidden: {

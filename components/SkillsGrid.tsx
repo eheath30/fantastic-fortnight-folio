@@ -10,7 +10,7 @@ import {
   TitleContainer,
 } from "../styles/SkillsGrid.module.js";
 
-const ProjectsGrid = () => {
+const SkillsGrid = () => {
   return (
     <>
 
@@ -192,4 +192,4 @@ const ProjectsGrid = () => {
   );
 };
 
-export default ProjectsGrid;
+export default SkillsGrid;

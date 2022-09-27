@@ -1,0 +1,30 @@
+export {default as gamesgrotto1}  from "./ProjectsCarousel/gamesgrotto1.png";
+export {default as gamesgrotto2} from "./ProjectsCarousel/gamesgrotto2.png";
+export {default as gamesgrotto3} from "./ProjectsCarousel/gamesgrotto3.png";
+export {default as gamesgrotto4} from "./ProjectsCarousel/gamesgrotto4.png";
+export {default as gamesgrotto5} from "./ProjectsCarousel/gamesgrotto5.png";
+export {default as habithole1} from "./ProjectsCarousel/habithole1.png";
+export {default as habithole2} from "./ProjectsCarousel/habithole2.png";
+export {default as habithole3} from "./ProjectsCarousel/habithole3.png";
+export {default as habithole4} from "./ProjectsCarousel/habithole4.png";
+export {default as habithole5} from "./ProjectsCarousel/habithole5.png";
+export {default as quizzlybears1} from "./ProjectsCarousel/quizzlybears1.png";
+export {default as quizzlybears2} from "./ProjectsCarousel/quizzlybears2.png";
+export {default as quizzlybears3} from "./ProjectsCarousel/quizzlybears3.png";
+export {default as quizzlybears4} from "./ProjectsCarousel/quizzlybears4.png";
+export {default as quizzlybears5} from "./ProjectsCarousel/quizzlybears5.png";
+export {default as portfolio1} from "./ProjectsCarousel/portfolio1.png";
+export {default as portfolio2} from "./ProjectsCarousel/portfolio2.png";
+export {default as portfolio3} from "./ProjectsCarousel/portfolio3.png";
+
+
+export {default as passwordgenerator}  from "./ImgsCarousel/passwordgenerator.png";
+export {default as gamesgrotto}  from "./ImgsCarousel/gamesgrotto.png";
+export {default as todotabs}  from "./ImgsCarousel/todotabs.png";
+export {default as reecespieces}  from "./ImgsCarousel/reecespieces.png";
+export {default as quizzlybears}  from "./ImgsCarousel/quizzlybears.png";
+export {default as pandapost}  from "./ImgsCarousel/pandapost.png";
+export {default as githut}  from "./ImgsCarousel/githut.png";
+export {default as pizzalovers}  from "./ImgsCarousel/pizzalovers.png";
+export {default as habithole}  from "./ImgsCarousel/habithole.png";
+export {default as bionictext}  from "./ImgsCarousel/bionictext.png";

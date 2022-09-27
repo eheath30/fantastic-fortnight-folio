@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-
-import Image from "next/image";
-import styles from "../../styles/Home.module.css";
-
 import {
   FooterContainer,
   FooterRight,
@@ -45,7 +41,7 @@ const Footer = () => {
       </FooterRight>
       <FooterLeft>
         <FooterTextLinks>
-          <FooterTextLink className={styles.link1} href="#">
+          <FooterTextLink href="#">
             Home
           </FooterTextLink>
           <FooterTextLink href="/blog">Blog</FooterTextLink>

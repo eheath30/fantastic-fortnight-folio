@@ -48,9 +48,35 @@ export const CodeContainer = styled.a`
     Bitstream Vera Sans Mono, Courier New, monospace;
   @media (prefers-color-scheme: dark) {
     background: #145da0;
-
   }
   @media (max-width: 700px) {
     font-size: 1rem;
+  }
+`;
+
+
+export const PageContainer = styled.div`
+// Home Page Container
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+`;
+
+export const Main = styled.main`
+// Home Page Main
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 1200px) {
+      padding: 6rem 0;
+  }
+  @media (max-width: 900px) {
+      padding: 2rem 0;
   }
 `;
