@@ -1,5 +1,30 @@
 import styled from "styled-components";
 
+export const PageContainer = styled.div`
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+`;
+
+export const Main = styled.div`
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 1200px) {
+      padding: 6rem 0;
+  }
+  @media (max-width: 900px) {
+      padding: 2rem 0;
+  }
+`;
+
 export const AboutContainer = styled.section`
   display: grid;
   width: 100%;
@@ -47,20 +72,20 @@ export const Contact = styled.div`
 export const AboutMeHeader = styled.h2`
   @media (min-width: 1311px) {
     margin: 0 5rem 5rem 0;
-    padding-left: 1rem;
-    font-size: 2.2rem;
+    padding-left: 1.5rem;
+    font-size: 2.1rem;
   }
   @media (max-width: 1310px) {
     padding-bottom: 1rem;
     border-bottom: 1px solid #222;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 `;
 
 export const ContactMeHeader = styled.h2`
   @media (min-width: 1311px) {
     margin: 2rem 0 2rem 0;
-    padding-left: 0.5rem;
+    padding-left: 0.4rem;
     font-size: 1.8rem;
   }
   @media (max-width: 1310px) {

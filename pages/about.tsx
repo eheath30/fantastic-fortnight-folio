@@ -14,7 +14,9 @@ import {
   AboutMeContent,
   ContactMeHeader,
   SpecialContact,
-  SpecialContactMeHeader
+  SpecialContactMeHeader,
+  PageContainer,
+  Main
 } from "../styles/About.module.js";
 
 const containerVariants = {
@@ -33,8 +35,8 @@ const containerVariants = {
 
 const About: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <motion.h1
+    <PageContainer>
+      <motion.main
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -61,8 +63,8 @@ I&apos;ve decided to embark on a programming adventure and am currently studying
       </AboutGridItem>
     </AboutContainer>
     <Footer/>
-    </motion.h1>
-    </div>
+    </motion.main>
+    </PageContainer>
   );
 };
 

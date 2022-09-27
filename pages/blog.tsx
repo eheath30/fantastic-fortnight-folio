@@ -1,7 +1,11 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 import {Footer} from "../components";
+
+import {
+  PageContainer,
+  Main
+} from "../styles/About.module.js";
 
 const containerVariants = {
   hidden: {
@@ -19,20 +23,23 @@ const containerVariants = {
 
 const About: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <PageContainer>
 
-      <main className={styles.main}>
-        <motion.h1
+      <Main>
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
           Coming soon...
-        </motion.h1>
-      </main>
+          <br/>         <br/>
+          <Footer/>
+        </motion.div>
 
-      <Footer/>
-    </div>
+        </Main>
+
+
+    </PageContainer>
   );
 };
 
