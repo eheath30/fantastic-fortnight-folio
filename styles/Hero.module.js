@@ -79,4 +79,11 @@ export const CodeContainer = styled.a`
   @media (max-width: 700px) {
     font-size: 1rem;
   }
+  @media (prefers-color-scheme: light) {
+    color: #0C2D48
+
+  }
+  &:hover {
+    filter: brightness(1.1);
+  }
 `;

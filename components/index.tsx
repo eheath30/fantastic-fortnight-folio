@@ -6,3 +6,4 @@ export { default as ProjectsGrid } from './ProjectsGrid';
 export { default as ProjectSwiper } from './ProjectSwiper';
 export { default as SkillsGrid } from './SkillsGrid';
 export { default as ImgCarousel } from './ImgCarousel';
+export { default as PostCard } from './PostCard';

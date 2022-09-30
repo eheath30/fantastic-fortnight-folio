@@ -1,12 +1,17 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    // "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -14,7 +19,16 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "strict": false
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "styles/Nav.module.js"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "styles/Nav.module.js",
+    "pages/blog.tsx"
+, "pages/posts/[slug].tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

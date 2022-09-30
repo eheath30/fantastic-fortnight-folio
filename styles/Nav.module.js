@@ -5,15 +5,18 @@ export const LeftContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   @media (min-width: 900px) {
-    padding: 1rem 2rem 0 1.5rem;
+    padding: 0rem 2rem 0 1.5rem;
   }
-  padding: 0.8rem 2rem 0 1rem;
+  padding: 0 0 0 1rem;
   font-size: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 `;
 
 export const RightContainer = styled.div`
+@media (min-width: 900px) {
+  padding: 0.5rem 2rem 0 1.5rem;
+}
   flex: 70%;
   display: flex;
   justify-content: flex-end;
@@ -25,12 +28,15 @@ export const NavbarInnerContainer = styled.div`
   width: 100%;
   height: 80px;
   display: flex;
+  align-items: center;
 `;
 
 export const NavbarLinkContainer = styled.div`
   display: flex;
   flex-direction: row;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
+
+
 `;
 
 export const NavbarLink = styled.a`
@@ -75,7 +81,7 @@ export const Logo = styled.img`
 `;
 
 export const OpenLinksButton = styled.button`
-  width: 70px;
+  width: 80px;
   height: 50px;
   background: none;
   border: none;

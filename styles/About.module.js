@@ -10,7 +10,7 @@ export const PageContainer = styled.div`
 }
 `;
 
-export const Main = styled.div`
+export const Main = styled.main`
   min-height: 100vh;
   flex: 1;
   display: flex;
