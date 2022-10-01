@@ -7,6 +7,9 @@ export const LeftContainer = styled.div`
   @media (min-width: 900px) {
     padding: 0rem 2rem 0 1.5rem;
   }
+  @media (max-width: 900px) {
+    padding: 1rem 0 0 1rem;
+  }
   padding: 0 0 0 1rem;
   font-size: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
