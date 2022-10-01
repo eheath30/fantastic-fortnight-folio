@@ -41,7 +41,7 @@ const Footer = () => {
       </FooterRight>
       <FooterLeft>
         <FooterTextLinks>
-          <FooterTextLink href="#">
+          <FooterTextLink href="/">
             Home
           </FooterTextLink>
           <FooterTextLink href="/blog">Blog</FooterTextLink>
