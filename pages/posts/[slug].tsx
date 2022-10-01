@@ -43,7 +43,7 @@ const PostCard = ( post: { post: { coverPhoto: { url: string; }; author: { avata
   </SlugDate>
   </SlugHeaderText>
   </SlugHeaderContainer>
-      <PostDiv
+      <PostDiv className='slugcontent'
         dangerouslySetInnerHTML={{ __html: post.post.content.html }}
       ></PostDiv>
       </GreaterPostDiv>
