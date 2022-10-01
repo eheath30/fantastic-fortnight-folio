@@ -30,7 +30,7 @@ const ImgCarousel = () => {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow]}
         className={styles.swiper}
       >
         <SwiperSlide className={styles.swiperslide}>
