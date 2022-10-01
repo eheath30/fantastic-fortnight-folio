@@ -29,7 +29,7 @@ const PostCard = ({
 
       <Link href={`/posts/${slug}`}>
         <ImgContainer>
-          <Image layout="fill" src={coverPhoto.url} alt="" />
+          <Image layout="fill" src={coverPhoto.url} alt="" height={100} width={100}/>
         </ImgContainer>
       </Link>
       <GreaterTab>

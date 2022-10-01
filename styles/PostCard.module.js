@@ -16,8 +16,8 @@ margin: 0 3rem 1rem 3rem;
 
 export const ImgContainer = styled.div`
 position: relative;
-width: 100%;
-height: 20vh;
+width: auto;
+height: 14rem;
 &&:hover {
     opacity: 0.8;
     cursor: pointer;

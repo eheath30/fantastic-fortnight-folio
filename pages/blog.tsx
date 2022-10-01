@@ -5,17 +5,6 @@ import { getPosts } from '../services'
 import {Post} from '../lib/postModel'
 import { GetStaticProps } from 'next'
 
-
-
-export async function getStaticProps() {
-  const  posts  = (await getPosts()) || [];
-  return {
-    props: {
-      posts,
-    },
-  };
-}
-
 import { PageContainer, Main, PostGrid, BlogTitle, Svg } from "../styles/Blog.module.js";
 
 const containerVariants = {
@@ -31,6 +20,15 @@ const containerVariants = {
     transition: { ease: "easeInOut" },
   },
 };
+
+export async function getStaticProps() {
+  const  posts  = (await getPosts()) || [];
+  return {
+    props: {
+      posts,
+    },
+  };
+}
 
 function Blog({posts}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (

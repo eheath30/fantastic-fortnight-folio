@@ -18,7 +18,13 @@ export const LeftContainer = styled.div`
 
 export const RightContainer = styled.div`
 @media (min-width: 900px) {
-  padding: 0.5rem 2rem 0 1.5rem;
+  padding: 0.5rem 1rem 0 1.5rem;
+}
+@media (min-width: 701px) {
+  padding: 1rem 0 0 1rem;
+}
+@media (max-width: 700px) {
+  padding: none;
 }
   flex: 70%;
   display: flex;
@@ -96,7 +102,7 @@ export const OpenLinksButton = styled.button`
   }
   font-size: 45px;
   cursor: pointer;
-  @media (min-width: 700px) {
+  @media (min-width: 701px) {
     display: none;
   }
 `;

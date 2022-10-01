@@ -46,7 +46,7 @@ const About: NextPage = () => {
       <AboutGridImg src={ProfileImg.src}></AboutGridImg>
       <Contact>
       <ContactMeHeader>Contact</ContactMeHeader>
-      <p>elliot.heath@btinternet.com</p>
+      <a href="mailto:elliot.heath@btinternet.com" style={{textDecoration:"none"}}>elliot.heath@btinternet.com</a>
       </Contact>
     </AboutGridItem>
     <AboutGridItem>
