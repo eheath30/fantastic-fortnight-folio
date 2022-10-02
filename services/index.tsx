@@ -6,6 +6,7 @@ export const getPosts = async () => {
     const QUERY = gql`
     query Assets {
       posts {
+        category
         id
         title
         publishDate
@@ -35,7 +36,8 @@ export const getPost = async (slug: any) => {
   const query = gql`
     query GetPostDetails($slug : String!) {
       post(where: {slug: $slug}) {
-        id
+      category
+      id
       title
       slug
       publishDate

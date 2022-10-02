@@ -53,6 +53,7 @@ border-bottom: 1px solid #222;
 margin: auto;
 width: 100%;
 max-width: 50rem;
+cursor: default;
 `;
 
 export const SlugHeaderText = styled.div`
@@ -83,13 +84,31 @@ border-radius: 50px;
 export const SlugAuthorName = styled.div`
 font-size: 1.2rem;
 margin: auto 0;
+@media (max-width: 500px) {
+  font-size: 1rem;
+}
 `;
 
 export const SlugDate = styled.div`
 font-size: 1.2rem;
 margin: auto 1rem auto 0;
 padding-bottom: 3px;
+@media (max-width: 500px) {
+  font-size: 1rem;
+}
 `;
+
+export const SlugCategory = styled.div`
+font-size: 1.2rem;
+margin: 0;
+padding-bottom: 3px;
+text-decoration: underline;
+@media (max-width: 500px) {
+  font-size: 1rem;
+}
+`;
+
+
 
 export const FooterContainer = styled.div`
 @media (min-width: 900px) {

@@ -13,10 +13,12 @@ import {
   DateDiv,
   Tab,
   Title,
-  GreaterTab
+  GreaterTab,
+  Category
 } from "../styles/PostCard.module.js";
 
 const PostCard = ({
+  category,
   title,
   author,
   coverPhoto,
@@ -24,6 +26,7 @@ const PostCard = ({
   publishDate,
   slug,
 }: Post) => {
+  console.log(category)
   return (
     <PostCardDiv key={id}>
 
@@ -39,6 +42,9 @@ const PostCard = ({
           <AuthorAvatar src={author.avatar.url}/>
           <AuthorName>{author.name}</AuthorName>
         </Author>
+        <Category>
+        {category}
+        </Category>
         <DateDiv>{moment(publishDate).format("MMM Do YY")}</DateDiv>
         </Tab>
               </GreaterTab>

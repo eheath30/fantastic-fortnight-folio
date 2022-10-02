@@ -1,7 +1,8 @@
-import { HtmlProps } from "next/dist/shared/lib/html-context";
+//why is this here? possible import error... check runtime for errors and delete.
+// import { HtmlProps } from "next/dist/shared/lib/html-context";
 
 export interface Post {
-
+    category: string;
     title: string;
     author: {name: string,
     avatar: { url: string }};

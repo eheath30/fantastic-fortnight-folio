@@ -17,13 +17,13 @@ import {
   SlugAuthor,
   SlugAuthorAvatar,
   SlugAuthorName,
-  SlugDate
-
+  SlugDate,
+  SlugCategory
 } from "../../styles/Slug.module.js";
 import { Footer } from '../../components';
 
 
-const PostCard = ( post: { post: { coverPhoto: { url: string; }; author: { avatar: { url: string; }; name: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal; }; publishDate: moment.MomentInput; content: { html: any; }; }; } ) => {
+const PostCard = ( post: { post: { category: string; coverPhoto: { url: string; }; author: { avatar: { url: string; }; name: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal; }; publishDate: moment.MomentInput; content: { html: any; }; }; } ) => {
   return (
     <>
     <SlugContainer>
@@ -38,6 +38,9 @@ const PostCard = ( post: { post: { coverPhoto: { url: string; }; author: { avata
     {post.post.author.name}
     </SlugAuthorName>
   </SlugAuthor>
+  <SlugCategory>
+    {post.post.category}
+  </SlugCategory>
   <SlugDate>
   {moment(post.post.publishDate).format("MMM Do YYYY")}
   </SlugDate>

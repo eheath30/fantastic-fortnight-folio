@@ -55,6 +55,7 @@ function Blog({posts}: InferGetStaticPropsType<typeof getStaticProps>) {
                 coverPhoto={post.coverPhoto}
                 id={post.id}
                 publishDate={post.publishDate}
+                category={post.category}
                 slug={post.slug}
               />
             ))}

@@ -24,6 +24,16 @@ height: 14rem;
   }
 `;
 
+export const Category = styled.p`
+margin: auto;
+text-align: flex-start;
+text-decoration: underline;
+font-size: 1.25rem;
+@media (max-width: 500px) {
+  font-size: 1rem;
+  }
+`;
+
 
 
 export const Title = styled.h3`
@@ -36,11 +46,11 @@ margin: 0;
 export const Author = styled.div`
 display: flex;
 flex-direction: row;
-padding: 0 4rem 0 0;
+margin: 0 0 0 1rem;
 `;
 export const AuthorAvatar = styled.img`
 height: 2rem;
-margin: auto 0.5rem;
+margin: auto 0.5rem auto 0;
 border-radius: 50px;
 `;
 
@@ -63,6 +73,7 @@ text-align: flex-end;
 `;
 
 export const Tab = styled.div`
+width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -71,6 +82,7 @@ padding: 0 0 0.2rem 0;
 `;
 
 export const GreaterTab = styled.div`
+cursor: default;
 display: flex;
 flex-direction: column;
 align-items: center;
