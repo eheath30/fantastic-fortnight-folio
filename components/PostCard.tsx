@@ -29,7 +29,6 @@ const PostCard = ({
 function setScroll() {
   useScrollStore.setState({ y: window.pageYOffset })
 }
-
   return (
     <PostCardDiv key={id}>
       <Link href={`/posts/${slug}`}>
