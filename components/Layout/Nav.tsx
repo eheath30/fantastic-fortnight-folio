@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import useScrollStore from '../../lib/store'
 import {
   LeftContainer,
   RightContainer,
@@ -30,7 +31,9 @@ export const NavbarContainer = styled.nav<INav>`
 
 const Nav = () => {
   const [expandNavbar, setExpandNavbar] = useState<boolean>(false);
-
+  function setScroll() {
+    useScrollStore.setState({ y: 0 })
+  }
 
   return (
     <motion.div
@@ -45,10 +48,10 @@ const Nav = () => {
           </LeftContainer>
           <RightContainer>
             <NavbarLinkContainer>
-              <NavbarLink href="/"> Home</NavbarLink>
-              <NavbarLink href="/blog"> Blog</NavbarLink>
+              <NavbarLink href="/" onClick={() => setScroll()}> Home</NavbarLink>
+              <NavbarLink href="/blog" onClick={() => setScroll()}> Blog</NavbarLink>
               {/* <NavbarLink href="/contact"> Contact</NavbarLink> */}
-              <NavbarLink href="/about"> About </NavbarLink>
+              <NavbarLink href="/about" onClick={() => setScroll()}> About </NavbarLink>
               <OpenLinksButton
                 onClick={() => {
                   setExpandNavbar((prevState) => !prevState);

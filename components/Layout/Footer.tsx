@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import useScrollStore from "../../lib/store";
 import {
   FooterContainer,
   FooterRight,
@@ -10,6 +11,9 @@ import {
 } from "../../styles/Footer.module.js";
 
 const Footer = () => {
+  function setScroll() {
+    useScrollStore.setState({ y: 0 })
+  }
   return (
     <FooterContainer>
       <FooterRight>
@@ -41,11 +45,11 @@ const Footer = () => {
       </FooterRight>
       <FooterLeft>
         <FooterTextLinks>
-          <FooterTextLink href="/">
+          <FooterTextLink href="/" onClick={() => setScroll()}>
             Home
           </FooterTextLink>
-          <FooterTextLink href="/blog">Blog</FooterTextLink>
-          <FooterTextLink href="/about">About</FooterTextLink>
+          <FooterTextLink href="/blog" onClick={() => setScroll()}>Blog</FooterTextLink>
+          <FooterTextLink href="/about" onClick={() => setScroll()}>About</FooterTextLink>
         </FooterTextLinks>
         <FooterNote>Elliot Heath [MIT] 2022</FooterNote>
       </FooterLeft>
