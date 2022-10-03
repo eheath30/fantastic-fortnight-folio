@@ -1,9 +1,8 @@
 import React from 'react'
-import {Post} from '../../lib/postModel'
+// import {Post} from '../../lib/postModel'
 import { getPosts, getPost } from '../../services';
-import Router from 'next/router'
+import {useRouter} from 'next/router'
 import moment from 'moment';
-
 import {
   BackButton,
   BackButtonEnd,
@@ -24,10 +23,11 @@ import { Footer } from '../../components';
 
 
 const PostCard = ( post: { post: { category: string; coverPhoto: { url: string; }; author: { avatar: { url: string; }; name: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal; }; publishDate: moment.MomentInput; content: { html: any; }; }; } ) => {
+  const router = useRouter()
   return (
     <>
     <SlugContainer>
-    <BackButton onClick={() => Router.back()}>Back</BackButton>
+    <BackButton onClick={() => router.push(`/blog`)}>Back</BackButton>
 <GreaterPostDiv>
   <SlugHeaderContainer>
   <SlugHeaderImg src={post.post.coverPhoto.url}/>
@@ -50,7 +50,7 @@ const PostCard = ( post: { post: { category: string; coverPhoto: { url: string; 
         dangerouslySetInnerHTML={{ __html: post.post.content.html }}
       ></PostDiv>
       </GreaterPostDiv>
-      <BackButtonEnd onClick={() => Router.back()}>Back to Blog</BackButtonEnd>
+      <BackButtonEnd onClick={() => router.push(`/blog`)}>Back to Blog</BackButtonEnd>
       <FooterContainer>
       <Footer/>
       </FooterContainer>

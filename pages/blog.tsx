@@ -1,9 +1,11 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
+import React, {useEffect} from 'react';
 import { motion } from "framer-motion";
 import { Footer, PostCard } from "../components";
 import { getPosts } from '../services'
 import {Post} from '../lib/postModel'
-import { GetStaticProps } from 'next'
+// import { GetStaticProps } from 'next'
+import useScrollStore from '../lib/store'
 
 import { PageContainer, Main, PostGrid, BlogTitle, Svg } from "../styles/Blog.module.js";
 
@@ -31,6 +33,11 @@ export async function getStaticProps() {
 }
 
 function Blog({posts}: InferGetStaticPropsType<typeof getStaticProps>) {
+const scrollY = useScrollStore((state) => state.y)
+useEffect(() => {
+  window.scroll(0, scrollY)
+})
+
   return (
     <PageContainer>
       <Main>

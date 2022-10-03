@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Post } from "../lib/postModel";
 import moment from "moment";
-
+import useScrollStore from "../lib/store";
 import {
   PostCardDiv,
   ImgContainer,
@@ -26,10 +26,15 @@ const PostCard = ({
   publishDate,
   slug,
 }: Post) => {
+function setScroll() {
+  useScrollStore.setState({ y: window.pageYOffset })
+}
+
   return (
     <PostCardDiv key={id}>
       <Link href={`/posts/${slug}`}>
-        <ImgContainer>
+        {/* currently looking at implementing return to same Y offset*/}
+        <ImgContainer onClick={() => setScroll()}>
           <Image priority={true} layout="fill" src={coverPhoto.url} alt=""/>
         </ImgContainer>
       </Link>
