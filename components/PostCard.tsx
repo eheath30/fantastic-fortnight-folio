@@ -26,10 +26,8 @@ const PostCard = ({
   publishDate,
   slug,
 }: Post) => {
-  console.log(category)
   return (
     <PostCardDiv key={id}>
-
       <Link href={`/posts/${slug}`}>
         <ImgContainer>
           <Image priority={true} layout="fill" src={coverPhoto.url} alt=""/>
