@@ -16,7 +16,7 @@ import {
   SpecialContact,
   SpecialContactMeHeader,
   PageContainer,
-  Main
+  CodeContainer
 } from "../styles/About.module.js";
 
 const containerVariants = {
@@ -55,12 +55,15 @@ const About: NextPage = () => {
 <AboutMeContent>Hi, I&apos;m Elliot, a programmer passionate about learning and teaching.<br /><br />
 Before taking up programming full-time, I worked as a teacher and consultant with numerous companies and schools worldwide.<br /><br />
 I&apos;ve decided to embark on a programming adventure and am currently studying software development full-time.  </AboutMeContent>
+<br/>
+<CodeContainer href="/blog">Go to Blog</CodeContainer>
 <SpecialContact>
       <SpecialContactMeHeader>Contact</SpecialContactMeHeader>
       <p>elliot.heath@btinternet.com</p>
       </SpecialContact>
       </AboutMe>
       </AboutGridItem>
+
     </AboutContainer>
     <Footer/>
     </motion.main>
